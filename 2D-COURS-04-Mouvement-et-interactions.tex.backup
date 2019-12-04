@@ -1,0 +1,386 @@
+
+\chapter{Mouvement et interactions}
+\intro{La \textit{dynamique} est l'étude de la \textit{modification du mouvement} d'un
+objet du fait de \textit{l'interaction de ce dernier avec le reste de l'Univers}. \\
+Les \textit{interactions} seront décrites par des \textit{forces}, l'étude du 
+mouvement s'appelle la \textit{cinématique}, on y décrit la \textit{trajectoire de l'objet}
+ainsi que l'évolution de sa vitesse.}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Décrire un mouvement}
+\subsection{Exemples de mouvements}
+Les types d'objets et de mouvements étudiés en physique sont très variés
+\begin{itemize}
+ \item la Terre décrit une ellipse d'environ $150$ millions de $km$ de rayon en
+ $1$ an autour du Soleil
+ \item une plaque tectonique se déplace par rapport à une autre de quelques centimètres 
+ par an.
+ \item un électron d'un microscope électronique se déplace à plusieurs milliers de kilomètre
+ par seconde
+ \item une molécule dans un gaz à température ambiante se déplace à quelques centaines 
+ de mètre par seconde
+ \item un humain en marche normale se déplace à $4~km.h^{-1}$
+ \item la station spatiale internationale ISS est en orbite basse à $400~km$ d'altitude et fait 
+ le tour de la Terre en $1h~30min$
+\end{itemize}
+
+\subsection{Système et référentiel}
+\paragraph{Définition}Un \textit{système} est l'objet (ou le groupe d'objet) dont on va décrire le mouvement. 
+Il \textit{subit} l'influence du \textit{reste de l'Univers}.  
+\paragraph{Définition}Pour \textit{décrire un mouvement}, on doit pouvoir \textit{mesurer la position du système à chaque instant}.
+On doit donc \textit{choisir un autre objet de référence} par rapport au quel on pourra mesurer la position de notre système.
+Mathématiquement, on choisira un \textit{repère orthonormé associé à une origine fixé sur le référentiel}. Voir figure \ref{fig:def_referentiel}.
+\begin{figure}[h!]
+  \begin{center}
+      \includegraphics[width=\columnwidth]{4.0-mvt-interactions/def_referentiel.pdf}
+  \end{center}
+  \caption{Le système étudié est une fusée au décollage. Son mouvement est mesuré par rapport au sol en fonction du temps. On peut alors définir des coordonnés $(x,y,z)$ de la fusée à chaque instant $t$.}
+  \label{fig:def_referentiel}
+\end{figure}
+
+
+\subsection{Relativité du mouvement} 
+\paragraph{Définition} Le \textit{choix du référentiel est important}, car il conditionne la description du mouvement. Le mouvement est relatif au référentiel choisi. 
+\paragraph{Exemples} 
+\begin{itemize}
+ \item Quand on étudie le mouvement d'un passager d'un train, il semble immobile \textit{par rapport au fauteuil} mais être en déplacement \textit{par rapport à un arbre à coté de la voie}. 
+ \item Dans un film, on utilise cet effet lors d'un \textit{traveling} où la caméra suit les acteurs dans la scène en roulant sur des rails ou à bord d'un véhicule.
+\end{itemize}
+
+\subsection{Modèle du point matériel}
+\paragraph{Définition} On utilise un \textit{ modèle simplifié d'un objet} dont on veut décrire le mouvement. L'objet se résume à \textit{un point où toute sa masse se trouve concentrée}. Ce point s'appelle le \textit{centre d'inertie CI}.
+La position de ce point dans l'espace nécessite trois coordonnés $CI~ \left( x,y,z \right)$. \\ 
+Ce modèle a ses limites, on a perdu toute information concernant l'orientation de l'objet dans l'espace et toute information concernant les points d'applications des forces. Voir figure \ref{fig:modele_point_materiel}.
+\begin{figure}[h!]
+  \begin{center}
+      \includegraphics[width=\columnwidth]{4.0-mvt-interactions/modele_point_materiel.pdf}
+  \end{center}
+  \caption{Une capsule Apollo chute dans l'atmosphère \textit{(a)}, elle subit une force d'attraction
+  vers la Terre et des forces de frottement sur son bouclier thermique \textit{(b)}, on simplifie
+  la description avec le modèle du point matériel, où la capsule se résume à une \textit{masse ponctuelle} de $5900~kg$ soumise à deux forces.}
+  \label{fig:modele_point_materiel}
+\end{figure}
+
+\paragraph{Définition} Les positions successives dans l'espace du centre d'inertie de l'objet décrit une courbe appelée
+une trajectoire. On y indique des positions $(x,y,z)$ à des dates précises $t$. Voir figure \ref{fig:def_trajectoire}.
+\begin{figure}[h!]
+  \begin{center}
+      \includegraphics[width=\columnwidth]{4.0-mvt-interactions/trajectoire_point.pdf}
+  \end{center}
+  \caption{La trajectoire d'un point matériel est la courbe définie par les positions successives de l'objet au cours de son mouvement décrit dans un référentiel}
+  \label{fig:def_trajectoire}
+\end{figure}
+\paragraph{Exemples de trajectoires}
+\begin{itemize}
+ \item trajectoire rectiligne  
+ \item trajectoire circulaire
+ \item trajectoire parabolique
+\end{itemize}
+
+
+\subsection{Vecteur déplacement}
+\paragraph{Définition} Soient deux points consécutifs $M_1(x_1,y_1)$ et $M_2(x_2,y_2)$  sur une trajectoire à des instants voisins séparés d'une durée $\Delta t$ . On appelle \textit{vecteur déplacement} le vecteur 
+\begin{equation*}
+  \begin{aligned}
+    \overrightarrow{M_1M_2} & = (x_2-x_1) \overrightarrow i + (y_2-y_1) \overrightarrow j \\
+			    & = \Delta x \overrightarrow i + \Delta y  \overrightarrow j
+ \end{aligned} 
+\end{equation*}
+Voir figure \ref{fig:vecteur_deplacement}.
+\begin{figure}[h!]
+  \begin{center}
+      \includegraphics[width=\columnwidth]{4.0-mvt-interactions/vecteur_deplacement.pdf}
+  \end{center}
+  \caption{Le vecteur déplacement permet de passer du point $M_1$ de la trajectoire au point $M_2$}
+  \label{fig:vecteur_deplacement}
+\end{figure}
+
+\paragraph{Exemple} Sur la figure \ref{fig:vecteur_deplacement}, on mesure les coordonnées des points $M_1 (1.5 , 2.4)$ et $M_2 (3.5,1.7)$. On peut ensuite calculer le vecteur déplacement 
+\begin{equation*}
+  \begin{aligned}
+    \overrightarrow{M_1M_2} &= (3.5-1.5) \overrightarrow {i} + (1.7-2.4) \overrightarrow{ j}\\
+		& = 2.0 \overrightarrow{i} - 0.7 \overrightarrow{j}
+\end{aligned} 
+\end{equation*}
+On a un déplacement de $\Delta x = 2.0~m$ vers la droite et de $\Delta y = -0.7~m$ vers le bas.
+
+\subsection{Vecteur vitesse moyenne}
+\paragraph{Définition} Le \textit{vecteur vitesse moyenne} $\overrightarrow V$ peut se calculer 
+entre deux points séparés d'une durée $\Delta t$ à partir du vecteur déplacement (voir figure \ref{fig:vecteur_vitesse_moyenne}).
+\begin{equation*}
+  \begin{aligned}
+    \overrightarrow{V}    & =  \frac{1}{\Delta t} \overrightarrow{M_1M_2} \\
+			  & =  \frac{1}{\Delta t} \overrightarrow{M_1M_2} \\
+			  & =  \frac{1}{\Delta t} \left( (x_2-x_1) \overrightarrow{i} + (y_2-y_1) \overrightarrow{j} \right) \\
+			  & =  \frac{(x_2-x_1)}{\Delta t} \overrightarrow{i} + \frac{(y_2-y_1)}{\Delta t} \overrightarrow{j}  \\
+			  & =  \frac{\Delta x}{\Delta t} \overrightarrow{i} + \frac{\Delta y}{\Delta t} \overrightarrow{j}  \\
+			  & =  V_x \overrightarrow{i} + V_y \overrightarrow{j} \\
+  \end{aligned} 
+\end{equation*}
+avec $V_x = \dfrac{\Delta x}{\Delta t}$ la vitesse selon l'axe $Ox$ et $V_y = \dfrac{\Delta y}{\Delta t}$ la vitesse selon l'axe $Oy$.
+
+\begin{figure}[h!]
+  \begin{center}
+      \includegraphics[width=\columnwidth]{4.0-mvt-interactions/vecteur_vitesse_moyenne.pdf}
+  \end{center}
+  \caption{Le vecteur vecteur vitesse moyenne se calcule à partir du vecteur déplacement entre deux points de la trajectoire séparés par une durée $\Delta t$}
+  \label{fig:vecteur_vitesse_moyenne}
+\end{figure}
+
+\paragraph{Exemple} Sur la figure \ref{fig:vecteur_vitesse_moyenne}, on peut mesurer le vecteur déplacement  $\overrightarrow{M_1M_2} = 2.0 \overrightarrow{i} - 0.7 \overrightarrow {j} $ et on connaît la durée qui sépare deux positions successives sur la trajectoire $\Delta t =  50~ms = 50 \times 10^{-3}~s$. On peut alors calculer les coordonnées du vecteur vitesse moyenne 
+$$V_x = \dfrac{\Delta x}{\Delta t} = \dfrac{2.0}{50 \times 10^{-3}~s} = 40~m.s^{-1} $$
+$$V_y = \dfrac{\Delta y}{\Delta t} = \dfrac{-0.7}{50 \times 10^{-3}~s} = -14~m.s^{-1} $$
+Donc 
+$$\overrightarrow{V} = 40 \overrightarrow{i} - 14 \overrightarrow{j}$$
+et $$ V = \sqrt{V_x^2 + V_y^2} = \sqrt{(40)^2 + (-14)^2} = 43 m.s^{-1}$$
+
+
+\subsection{Vecteur vitesse en un point}
+\paragraph{Définition} Le \textit{vecteur vitesse en un point $\overrightarrow{v_M}$} a pour norme la vitesse moyenne entre le point $M$ et le point suivant $M'$ c 'est à dire le rapport entre la distance parcourue de $M$ à $M'$ et la durée de ce parcours $\Delat t$ 
+$$ \lVert \overrightarrow{v_M} \rVert = \frac{MM'}{\Delta t} $$ et a pour sens le sens du mouvement et a pour direction la tangente à la trajectoire au point $M$.
+
+\begin{figure}[h!]
+  \begin{center}
+      \includegraphics[width=\columnwidth]{4.0-mvt-interactions/vecteur_vitesse_en_un_point.pdf}
+  \end{center}
+  \caption{Le vecteur vitesse au point $M_1$ se calcule à partir de la vitesse moyenne entre les points $M_1$ et $M_2$ et se dessine au point $M_1$ tangent à la trajectoire, dans le sens du mouvement}
+  \label{fig:vec_vitesse_en_un_point}
+\end{figure}
+\paragraph{Exemple} Sur la figure \ref{fig:vec_vitesse_en_un_point}, on peut mesurer les coordonnées des points $M_1(1.5,2.4)$ et $M_3(4.4,0.6)$ ainsi que l'intervalle de temps entre deux positions successives sur la trajectoire $\Delta t = 50~ms = 50 \times 10^{-3}~s$. On peut alors calculer les coordonnées du vecteur vitesse au point $M_2$.
+\begin{equation*}
+  \begin{aligned}
+    \overrightarrow{v_2}& =  \frac{1}{2 \Delta t}  \overrightarrow{M_1M_3} \\
+		&=  \frac{1}{2 \times 50 \times 10^{-3}~s} \left( (4.4-1.5) \overrightarrow{i} +  ( 0.6-2.4) \overrightarrow{j} \right) \\
+		&=  \frac{1}{100 \times 10^{-3}~s} \left( 2.9 \overrightarrow{i} -1.8 \overrightarrow{j} \right)\\
+		&=  29 \overrightarrow{i} -18 \overrightarrow{j} 		
+  \end{aligned} 
+\end{equation*}
+La vitesse au point $M_2$ a pour composantes $v_x = 29~m.s^{-1}$ le long de l'axe $Ox$ et $v_y = -18~m.s^{-1}$ le long de l'axe $Oy$ et une valeur de $v=\sqrt{(29)^2+(-18)^2}=34~m.s^{-1}$.
+
+
+\subsection{Mouvement rectiligne }
+\paragraph{Définition} Un mouvement est dit \textit{rectiligne uniforme} si le \textit{vecteur vitesse en un point} est constant dans le temps.
+Un mouvement est dit \textit{rectiligne non uniforme} si le \textit{vecteur vitesse en un point} varie dans le temps en norme ou en sens mais pas en direction. Voir figure \ref{fig:mvt_rec_unif}.
+\begin{figure}[h!]
+  \begin{center}
+      \includegraphics[width=\columnwidth]{4.0-mvt-interactions/mvt_rect_unif_non_unif.pdf}
+  \end{center}
+  \caption{La figure $a)$ représente un mouvement rectiligne et uniforme, l'objet se déplace en ligne droite à vitesse constante. La figure $b)$ représente un mouvement rectiligne non uniforme, l'objet se déplace en ligne droite mais sa vitesse varie, ici, elle augmente, l'objet accélère.}
+  \label{fig:mvt_rec_unif}
+\end{figure}
+
+\paragraph{Exemples}
+\begin{itemize}
+ \item une glissade sur une surface horizontale est un mouvement rectiligne uniforme
+ \item une chute libre sans frottement est un mouvement rectiligne accélérée
+ \item une chute sous un parachute est un mouvement rectiligne uniforme
+ \item une bille en acier qui tombe dans la neige a un mouvement rectiligne non uniforme (décélération) 
+\end{itemize}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Modélisation d'une action sur un système}
+\subsection{Action sur un système}
+\paragraph{Définition} On définit en premier le \textit{système étudié}. Il va \textit{subir} l'action d'un autre système. Les systèmes sont des objets dont on veut étudier la dynamique, c'est à dire la façon dont leur mouvement va changer sous l'action d'autres objets. Voir figure \ref{fig:system_doi}.
+\begin{figure}[h!]
+  \begin{center}
+      \includegraphics[width=\columnwidth]{4.0-mvt-interactions/systeme_doi_action.pdf}
+  \end{center}
+  \caption{Le système étudié va subir des actions de la part des autres objets de l'Univers.}
+  \label{fig:system_doi}
+\end{figure}
+
+\paragraph{Définition} Une \textit{action sur un système} va être modélisée mathématiquement par un
+\textit{vecteur force} $\overrightarrow{F}$ dont on doit préciser
+\begin{itemize}
+ \item la direction
+ \item le sens
+ \item la norme $F$ qui s'exprimera en Newton $N$
+\end{itemize}
+Comme nous considérons que le système se résume à un \textit{point matériel}, le point d'application
+de la force $\overrightarrow{F}$ sera le point.
+\paragraph{Exemple} 
+Le \textit{système étudié} est une boite de masse $m=500~g$ posée sur une table, elle subit l'action de la Terre modélisée par le vecteur force poids $\overrightarrow {P}$ et l'action de la table modélisée par le vecteur réaction de la table $\overrightarrow {R}$. 
+Voir figure \ref{fig:exemple_vec_force}.
+\begin{figure}[h!]
+  \begin{center}
+      \includegraphics[width=\columnwidth]{4.0-mvt-interactions/exemple_vec_force.pdf}
+  \end{center}
+  \caption{Le système étudié est une boite posée sur une table et sous l'influence de la Terre (figures $a$ et $b$). On modélise la boite par un objet ponctuel soumis aux forces $\protect\overrightarrow{P}$ et $\protect\overrightarrow{R}$ (figure $c$).}
+  \label{fig:exemple_vec_force}
+\end{figure}
+
+\subsection{Principe des actions réciproques - 3\ieme{} loi de Newton}
+\paragraph{Définition} On étudie un système $A$ qui subit une force $\overrightarrow{F_{B/A}}$
+de la part d'un système $B$. Si on considère le système $B$, il subit de la part du système $A$ une
+force $\overrightarrow{F_{A/B}}$. Le \textit{principe des actions réciproque} dit alors que 
+$$\overrightarrow{F_{B/A}} =  -\overrightarrow{F_{A/B}} $$
+  Voir figure \ref{fig:def_actions_reciproques}.
+
+\begin{figure}[h!]
+  \begin{center}
+      \includegraphics[width=\columnwidth]{4.0-mvt-interactions/def_actions_reciproques.pdf}
+  \end{center}
+  \caption{Si le système étudié est l'objet B alors l'objet A exerce une force sur l'objet B $\protect\overrightarrow{F_{A/B}}$. Si le système étudié est l'objet A alors l'objet B exerce une force sur l'objet A  $\protect\overrightarrow{F_{B/A}}$. D'après le principe des actions réciproques $\protect\overrightarrow{F_{B/A}}= - \protect\overrightarrow{F_{A/A}}$  }
+  \label{fig:def_actions_reciproques}
+\end{figure}
+
+
+
+\subsection{Exemples d'interactions de contact}
+\paragraph{Définition} Une \textit{interaction de contact} nécessite que les deux systèmes soient en contact.
+\paragraph{Exemple} 
+\begin{itemize}
+ \item Une brique est suspendue à un fil. Elle subit de la part du fil une force de traction $\overrightarrow{T}$ dirigée le long du fil, orientée vers le fil. 
+ \item Une brique est posée sur une table. Elle subit de la part de la surface une force de réaction $\overrightarrow{R}$ dirigée perpendiculairement à la surface, orientée vers l'objet posé. 
+\end{itemize}
+Voir figure \ref{fig:interaction_contact}.
+\begin{figure}[h!]
+  \begin{center}
+      \includegraphics[width=\columnwidth]{4.0-mvt-interactions/interaction_contact.pdf}
+  \end{center}
+  \caption{Les interactions de contact nécessitent que les objets interagissants se touchent. }
+  \label{fig:interaction_contact}
+\end{figure}
+
+\subsection{Exemples d'interactions à distance}
+\paragraph{Définition} Une \textit{interaction à distance} ne nécessite pas que les deux systèmes soient en contact.
+
+\paragraph{Définition} Un objet de masse $m$ placé à proximité de la surface d'une planète subit une force $\overrightarrow{P}$ appelée
+\textit{le poids} qui est une force verticale, dirigée vers le centre de la planète. La norme du poids se calcule par la
+relation $$P = m \times g$$ avec 
+\begin{itemize}
+ \item $P$ en Newton $N$
+ \item $m$ en kilogramme $kg$
+ \item $g$ accélération de pesanteur, dépend de la planète, en $N.kg^{-1}$
+\end{itemize}
+Voir figure \ref{fig:interaction_poids}.
+\begin{figure}[h!]
+  \begin{center}
+      \includegraphics[width=\columnwidth]{4.0-mvt-interactions/interaction_poids.pdf}
+  \end{center}
+  \caption{Le poids d'un objet de masse $m$ est une force d'interaction à distance que l'objet subit à proximité de la surface d'une planète. }
+  \label{fig:interaction_poids}
+\end{figure}
+
+\paragraph{Exemple} Un objet possède une masse $m=500~g$. On peut calculer son poids à la surface de différentes planètes connaissant la valeur de l'accélération de pesanteur $g$ sur ces planètes. Il faudra faire attention lors du calcul aux unités à respecter et donc convertir la masse de l'objet en kilogrammes. Voir tableau \ref{tab:calcul_poids}.
+\begin{table}[h!]
+  \centering
+  \begin{tabu} to 0.95\linewidth {  X[l]  X[c] X[c]  }
+    \hline
+     \textbf{Planète} & \textbf{g} ($N.kg^{-1}$) & \textbf{P}  ($N$)\\
+    \hline
+      Terre  & $9.81$ & $4.9$ \\
+      Mars  & $3.7$ & $1.9$ \\
+      Lune  & $1.6$ & $0.8$ \\
+      Comète & $5 \times 10^{-4}$ & $2.5\times 10^{-4}$ \\
+    \hline
+  \end{tabu}
+  \caption{Valeurs du poids d'un objet de $500~g$ à la surface de différents astres }
+  \label{tab:calcul_poids}
+\end{table}
+\begin{figure}[h!]
+  \begin{center}
+      \includegraphics[width=\columnwidth]{4.0-mvt-interactions/interaction_poids.pdf}
+  \end{center}
+  \caption{Le poids d'un objet de masse $m$ est une force d'interaction à distance que l'objet subit à proximité de la surface d'une planète. }
+  \label{fig:interaction_poids}
+\end{figure}
+
+\paragraph{Définition} Un objet $A$ de masse $M$, placé à une distance $d$ d'un autre objet $B$ de masse $m$ subit une
+\textit{force d'attraction gravitationnelle} $\overrightarrow{F_{B/A}}$ 
+\begin{itemize}
+ \item dont la direction est la droite passant par les centres d'inertie des deux objets
+ \item orientée de l'objet de masse $m$ vers l'objet de masse $M$ (force attractive)
+ \item dont la norme est donnée par la formule $$ F = \frac{G \times m \times M}{d^2}$$ 
+\end{itemize}
+Les unités à respecter sont
+\begin{itemize}
+ \item $F$ en Newton $N$
+ \item $m$ et $M$ en kilogramme $kg$
+ \item $d$ en mètre $m$
+ \item $G=6.67 \times 10^{-11}~N.m^2.kg^{-2}$
+\end{itemize}
+Voir figure \ref{fig:interaction_gravitation}.
+\begin{figure}[h!]
+  \begin{center}
+      \includegraphics[width=\columnwidth]{4.0-mvt-interactions/interaction_gravitation.pdf}
+  \end{center}
+  \caption{Le système étudié est un objet $A$ de masse $M$ qui subit de la part d'un objet  $B$ de masse $m$ une force d'attraction gravitationnelle $\protect\overrightarrow{F_{B/A}} $ }
+  \label{fig:interaction_gravitation}
+\end{figure}
+
+\paragraph{Exemple} Soit deux objets de masse $M=10~kg$ et $m=1~kg$ disposés à $d=2~m$ l'un de l'autre. On peut calculer la valeur de la force d'attraction gravitationnelle entre les deux corps massifs 
+\begin{equation*}
+  \begin{aligned}
+    F   &= \frac{G \times m \times M}{d^2} \\
+	&= \frac{6.67 \times 10^{-11} \times 1.0 \times 10}{2.0^2} \\		
+	&= 1.67 \times 10^{-10}~N 
+  \end{aligned} 
+\end{equation*}
+Soit un satellite de masse $M=1~t$ situé à une distance $d=100~000~km$ de la Terre qui a une masse $M=5.972 \times 10^{24}~kg$. On peut calculer la valeur de la force d'attraction gravitationnelle que subit ce satellite. Pour faire ce calcul, il faudra convertir les masses en kilogramme, et les distances en mètre.
+\begin{equation*}
+  \begin{aligned}
+    F   &= \frac{G \times m \times M}{d^2} \\
+	&= \frac{6.67 \times 10^{-11} \times 5.972 \times 10^{24} \times 1000}{100000000^2} \\		
+	&= 40~N 
+  \end{aligned} 
+\end{equation*}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Principe d'inertie}
+\subsection{Énonce} 
+\paragraph{Définition} 
+\begin{itemize}
+ \item Si \textit{la somme des forces extérieures} que subit un objet est \textit{nulle}, alors ce corps garde un \textit{vecteur vitesse constant}.
+ \item Si un corps a \textit{un vecteur vitesse qui varie}, alors cela signifie que \textit{la somme des forces extérieures} qu'il subit \textit{n'est pas nulle}.
+\end{itemize}
+
+\subsection{Cas du point immobile}
+\paragraph{Définition}
+Pour un point immobile
+\begin{itemize}
+ \item la somme des forces extérieures est nulle
+ \item le vecteur vitesse reste nul $\overrightarrow{V} = \overrightarrow{0}$
+\end{itemize}
+Voir figure \ref{fig:principe_inertie_statique}.
+\begin{figure}[h!]
+  \begin{center}
+      \includegraphics[width=\columnwidth]{4.0-mvt-interactions/principe_inertie_statique.pdf}
+  \end{center}
+  \caption{Un objet sur lequel les forces se compensent peut rester immobile. Un objet  immobile est soumis à des forces qui doivent se compenser.}
+  \label{fig:principe_inertie_statique}
+\end{figure}
+
+\subsection{Cas du point en mouvement rectiligne uniforme}
+\paragraph{Définition}
+Pour un point en \textit{mouvement rectiligne uniforme}
+\begin{itemize}
+ \item la somme des forces extérieures est nulle
+ \item le vecteur vitesse reste constante $$\overrightarrow{V} = \overrightarrow{Constant}$$
+\end{itemize}
+Voir figure \ref{fig:principe_inertie_uniforme}.
+\begin{figure}[h!]
+  \begin{center}
+      \includegraphics[width=\columnwidth]{4.0-mvt-interactions/principe_inertie_uniforme.pdf}
+  \end{center}
+  \caption{Un objet sur lequel les forces se compensent peut avoir un mouvement rectiligne et uniforme. Un objet en mouvement rectiligne et uniforme est soumis à des forces qui doivent se compenser.}
+  \label{fig:principe_inertie_uniforme}
+\end{figure}
+
+\subsection{Cas du point en chute libre à une dimension}
+\paragraph{Définition}
+Pour un point en \textit{mouvement de chute libre à une dimension}
+\begin{itemize}
+ \item la somme des forces extérieures est non nulle
+ \item le vecteur vitesse varie linéairement avec le temps $\overrightarrow{V} = (a \times t + b)\overrightarrow{i}$
+\end{itemize}
+Voir figure \ref{fig:principe_inertie_accelere}.
+\begin{figure}[h!]
+  \begin{center}
+      \includegraphics[width=\columnwidth]{4.0-mvt-interactions/principe_inertie_accelere.pdf}
+  \end{center}
+  \caption{Un objet en chute libre sans frottement a un mouvement rectiligne accéléré. Les forces ne se compensent pas, le vecteur vitesse change.}
+  \label{fig:principe_inertie_accelere}
+\end{figure}
+

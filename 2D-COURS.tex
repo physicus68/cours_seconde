@@ -1,0 +1,226 @@
+%\documentclass[10pt,a4paper,twoside,twocolumn,draft]{book}
+\documentclass[10pt,a4paper,twoside,twocolumn]{book}
+
+\usepackage[utf8]{inputenc}
+\usepackage[frenchb]{babel}
+
+% polices de caractères pour les titres et le texte et formules
+
+\usepackage[condensed]{roboto} 
+\usepackage[sfdefault,bitstream-charter]{mathdesign}
+\usepackage[T1]{fontenc}
+
+% mathématiques et schémas
+
+\usepackage{amsmath}
+\usepackage{bm}
+\usepackage{graphicx}
+\usepackage{cancel}
+%\usepackage{fourier}
+
+% tables et tableaux
+
+\usepackage{tabu} 
+\usepackage{float} 
+\usepackage{multirow}
+\usepackage{footnote}
+
+% Mise en page 
+
+\usepackage[left=2cm,right=2cm,top=2.5cm,bottom=3cm,bindingoffset=1.5cm, footskip=1.5cm]{geometry}
+
+% couleurs
+
+\usepackage{color}
+\usepackage[svgnames]{xcolor}
+%\definecolor{couleurtitres}{rgb}{0.12,0.47,0.87}
+\definecolor{couleurtitres}{gray}{0.0}
+\definecolor{couleur_exercice}{rgb}{0.36, 0.54, 0.66}	
+\definecolor{corriger}{rgb}{0.0, 0.5, 0.0}	
+
+% numéros de pages en bas de page et entetes de page
+
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhf{}
+\fancyfoot[CE,CO]{ \mdseries \sffamily \thepage}
+\renewcommand{\headrulewidth}{0pt}
+\fancyhead[LO]{\color{couleurtitres} \mdseries \sffamily \leftmark}
+\fancyhead[LE]{\color{couleurtitres}  \mdseries \sffamily
+		    \MakeUppercase{physique chimie 2\ieme}} 
+%     	nécessaire pour avoir le même style de numéro de page sur les
+%	pages de chapitre
+\fancypagestyle{plain}{%
+\fancyhf{} % 
+\fancyfoot[CE,CO]{ \mdseries \sffamily \thepage}}
+
+
+% modification du format des titres
+
+\usepackage[explicit]{titlesec}
+% 						correctif du bug de titlesec qui n'affiche plus les numéros de section
+\usepackage{etoolbox}
+\makeatletter
+\patchcmd{\ttlh@hang}{\parindent\z@}{\parindent\z@\leavevmode}{}{}
+\patchcmd{\ttlh@hang}{\noindent}{}{}{}
+\makeatother
+% 						fin  du correctif du bug 
+
+\titleformat{\chapter}%
+		[display]% style : hang, display, runin, leftmargin, ...
+		{\mdseries \sffamily }% changement de fonte numéro + titre
+		{ \colorbox{gray}{ \large  \color{white} \bfseries \chaptertitlename~\thechapter}}% numéro
+		{10pt}% espace entre le numéro et le titre
+		{\color{couleurtitres} \Huge  #1	}% changement de fonte du titre
+		
+\titleformat{\section}%
+		{\mdseries \sffamily \large}
+		{\color{couleurtitres} \bfseries \thesection }
+		{1em}
+		{\color{couleurtitres} \bfseries  #1}
+		[{\titlerule[1pt]}]
+		
+\titleformat{\subsection}
+		%[hang]
+		{\mdseries \sffamily}
+		{\color{couleurtitres} \bfseries \thesubsection}
+		{1em}
+		{\color{couleurtitres} \bfseries #1 }		
+
+
+% commande pour générer le paragraphe d'intro des chapitres
+
+\newcommand{\intro}[1]{ %\noindent 
+				\fcolorbox{black}{white}{%Azu
+				    \begin{minipage}{6.0cm} 
+						\bfseries Introduction \\
+						 \mdseries \em #1  
+				    \end{minipage} 
+				}
+		}
+		
+
+%	Figures
+
+\usepackage{graphicx}
+\graphicspath{{images/}}
+\usepackage[format=plain,
+            labelfont=it,
+            textfont=it]{caption}	
+
+% Formules chimiques            
+
+\usepackage{chemfig}
+\usepackage[version=3]{mhchem}
+\makeatother
+\setdoublesep{0.35700 em}  % 'Bond Spacing'
+\setatomsep{2.0em}    % 'Fixed Length'
+\setbondoffset{0.18265 em} % 'Margin Width'
+\newcommand{\bondwidth}{0.06642 em} % 'Line Width'
+\setbondstyle{line width = \bondwidth}
+\renewcommand*{\printatom}[1]{{\sffamily\cf{#1}}}
+            
+%  Hyperliens
+
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    filecolor=blue,      
+    urlcolor= blue,
+}
+      
+
+% Exercices
+
+\newcounter{numexos}		%Création d'un compteur qui s'appelle numexos
+\setcounter{numexos}{0}		%initialisation du compteur
+\newcommand{\exercice}[1]	{%Création d'une macro ayant un paramètre
+    \addtocounter{numexos}{1}	%chaque fois que cette macro est appelée, 
+				%elle ajoute 1 au compteur numexos    				
+    \noindent\fbox{\thenumexos}  #1  \par  % Met en rouge Exercice et la 
+					% valeur du compteur appelée 
+					% par \thenumeexos
+}
+\newcounter{numcorrs}		%Création d'un compteur qui s'appelle numexos
+\setcounter{numcorrs}{0}		%initialisation du compteur
+\newcommand{\correction}[1]	{%Création d'une macro ayant un paramètre
+    \addtocounter{numcorrs}{1}	%chaque fois que cette macro est appelée, 
+				%elle ajoute 1 au compteur numexos
+     \noindent\fbox{\thenumcorrs} #1 \par 
+}      
+      
+
+% informations sur le document
+
+\author{Wulfran Fortin}
+\title{Cours de Physique Chimie  2de}
+
+% pour les tests
+
+\usepackage{lipsum}
+
+\begin{document}
+\pagenumbering{roman}
+
+\begin{titlepage}
+		\fontfamily{phv}\selectfont \color{couleurtitres}
+		\vspace*{\stretch{1}}
+		\begin{flushright} \LARGE
+			Classe de seconde
+		\end{flushright}
+		\hrule
+		\begin{flushleft}
+			\Huge\mdseries
+			\MakeUppercase{Physique chimie}
+		\end{flushleft}
+		\vspace*{\stretch{2}}
+		\begin{center}
+			\includegraphics[width=12cm]{images/dessinCouvertureLivre.png}
+		\end{center}
+		\vspace*{\stretch{2}}
+		\begin{center}
+			Wulfran Fortin (2019)
+		\end{center}
+\end{titlepage}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%\paragraph{Illustration de couverture}%
+%Cercle de Borda. \\
+%\textit{<<Exposé des opérations faites en France en 1787 pour la 
+%jonction des observatoires de Paris et de Greenwich>>} \\
+%Cassini Jean-Dominique, Méchain Pierre, Legendre Adrien-Marie\\
+%Bibliothèque nationale de France
+%\paragraph{Principe} Le cercle répétiteur était un instrument de géomètre
+%pour mesurer très précisément des angles. Il s'agissait à l'époque de mesurer
+%par triangulation la longueur d'une portion du méridien nord-sud traversant 
+%la France. Ensuite, connaissant la longueur totale d'un quart de méridien et 
+%en le divisant en $ \frac{1}{10 000 000}$ parties, on a obtenu la première 
+%définition du \textit{mètre étalon} qui permit ensuite la première 
+%définition du \textit{kilogramme étalon} (la masse d'un cube de $10~cm$
+%d'arête contenant de l'eau pure à $4~ {}^oC$. Ce fût l'origine du 
+%\textit{système internationale d'unités SI}.
+
+\setcounter{tocdepth}{1}
+
+\tableofcontents
+
+\mainmatter
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\input{2D-COURS-01-Description-caracterisation-matiere-echelle-macro}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\input{2D-COURS-02-Modelisation-matiere-echelle-micro}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\input{2D-COURS-03-Modelisation-transformations-matiere-transfert-energie}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\input{2D-COURS-04-Mouvement-et-interactions}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\input{2D-COURS-05-Ondes-et-signaux}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\input{2D-COURS-06-Techniques_experimentales}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\input{2D-COURS-07-Annexes}
+
+\end{document}

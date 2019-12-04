@@ -1,0 +1,463 @@
+
+\chapter{Modélisation de la matière à l'échelle microscopique}
+
+
+\intro{À l'échelle microscopique, la matière est décrite comme étant un ensemble d'atomes constitués
+d'un noyau qui contient des protons et des neutrons, et qui est entouré d'un cortège électronique,
+dont l'organisation en couches et sous couches permet d'expliquer les propriétés chimiques des 
+éléments du tableau de la classification périodique. Ces atomes pourront s'assembler, entre autre, 
+en molécules. Le chimiste développera des outils théoriques pour compter rapidement ces atomes
+et ces molécules.}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Du macroscopique au microscopique}
+\subsection{Introduction}
+Toute la matière à notre échelle se compose d'atomes de différentes natures
+groupés en molécule et en cristaux, puis sous formes de structures de plus en plus
+complexes pour aboutir aux êtres et objets de notre quotidien (figure \ref{fig:macro-vers-micro}).
+\begin{figure}[!h]
+  \begin{center}
+      \includegraphics[width=1\columnwidth]{2.1-macro-micro/humain_vers_atome_NB.pdf}
+  \end{center}
+  \caption{Du macroscopique vers le microscopique}
+  \label{fig:macro-vers-micro}
+\end{figure}
+
+\subsection{Entités chimiques}
+\paragraph{Définition} Une \textit{entité chimique} désigne de façon
+générale
+\begin{itemize}
+ \item un \textit{atome}
+ \item une \textit{molécule} qui est un ensemble d'atomes reliés entre eux
+ \item un \textit{cation}, qui est un ion positif
+ \item un \textit{anion}, qui est un ion négatif
+\end{itemize}
+Voir figure \ref{fig:espece-vers-entite} page \pageref{fig:espece-vers-entite}.
+\paragraph{Exemples}
+Les \textit{atomes} de cuivre $Cu$, de fer $Fe$. Une \textit{molécule} d'eau $H_2O$, une 
+\textit{molécule} d'acide éthanoïque $CH_3 COOH$, un \textit{cation} $Fe^{3+}$, 
+un \textit{cation} $H_3O^{+}$, un \textit{anion} $SO_4^{2-}$, un \textit{anion}
+$Cl^{-}$.
+
+\subsection{Espèce chimique}
+\paragraph{Définition} Une \textit{espèce chimique} est un ensemble d'\textit{
+entités chimiques identiques}, en très grand nombre.
+Voir figure \ref{fig:espece-vers-entite} page \pageref{fig:espece-vers-entite}.
+
+\paragraph{Exemples} L'eau liquide est une espèce chimique qui contient un grand 
+nombre de molécules d'eau, voir la figure \ref{fig:espece-vers-entite-glace-eau}.\\ Le sel de cuisine est une espèce chimique qui contient
+un grand nombre de cations $Na^{+}$ et d'anions $Cl^{-}$, l'or est une espèce chimique
+qui contient un grand nombre d'atomes d'or $Au$ (\textit{Aurum} l'or en latin).
+
+\begin{figure}[!h]
+  \begin{center}
+      \includegraphics[width=1\columnwidth]{2.1-macro-micro/espece-entite-v2.pdf}
+  \end{center}
+  \caption{De l'espèce chimique vers l'entité chimique}
+  \label{fig:espece-vers-entite}
+\end{figure}
+
+\begin{figure}[!h]
+  \begin{center}
+      \includegraphics[width=1\columnwidth]{2.1-macro-micro/espece-entite-glace-eau.pdf}
+  \end{center}
+  \caption{La glace d'eau est une espèce chimique constituée de molécules d'eau régulièrement empilées}
+  \label{fig:espece-vers-entite-glace-eau}
+\end{figure}
+
+\subsection{Électro-neutralité de la matière }
+\paragraph{Définition} À \textit{notre échelle}, la matière est \textit{électriquement 
+neutre}, toutes les charges électriques positives se compensent avec le même nombre
+de charges électriques négatives.
+Les anions et les cations seront donc présents dans des proportions qui 
+permettent d'assurer cette électro-neutralité.
+Les atomes et les molécules ont une charge électrique nulle.
+\paragraph{Exemples} La neutralité de structures ioniques comme les sels se fait
+de manière à ce que les charges électriques de tous les cations neutralisent celles
+de tous les anions.\\
+Le \textit{chlorure de Fer III} est utilisé en faible quantité pour le traitement des
+eaux usées comme \textit{floculant} qui permet de décanter plus rapidement les 
+fines particules solides dans les eaux usagées. Sa formule est $FeCl_3$ et le cristal
+est un assemblage régulier de cations $Fe^{3+}$ et d'anions $Cl^-$. Les \textit{trois} charges
+positives de l'ion $Fe^{3+}$ sont compensées par \textit{une} charge négative 
+de \textit{trois} ions $Cl^-$
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Le noyau de l'atome}
+
+\subsection{Particules élémentaires}
+\paragraph{Définition}
+Les \textit{particules élémentaires} constituants les atomes sont \textit{l'électron, le proton} et 
+\textit{le neutron}. Voir le tableau \ref{tab:masse-particules-elementaires} page 
+\pageref{tab:masse-particules-elementaires} et le tableau \ref{tab:charge-particules-elementaires} 
+page \pageref{tab:charge-particules-elementaires}.
+
+\begin{table}[!h]
+  \centering
+  \begin{tabu} to 0.95\columnwidth { X[l] X[l] }
+      \hline 
+      \textbf{Particule} & \textbf{Masse  (en $\bm{kg} $)} \\ 
+      \hline \\[-10pt]
+	électron & $9.11 \times 10^{-31}$ \\ 
+	neutron  & $1.67 \times 10^{-27}$ \\ 
+	proton   & $1.67 \times 10^{-27}$ \\ 
+      \hline      
+  \end{tabu}
+  \caption{Masse des particules élémentaires constituant l'atome}
+  \label{tab:masse-particules-elementaires}
+\end{table}
+
+\begin{table}[!h]
+  \centering
+  \begin{tabu} to 0.95\columnwidth { X[l] X[2,l] }
+      \hline 
+      \textbf{Particule} & \textbf{Charge électrique   (en $\bm{C} $)} \\
+      \hline \\[-10pt]
+	électron & $-1.9 \times 10^{-19}$ (on note $-1$)\\ 
+	neutron  & $0$ \\ 
+	proton   & $1.9 \times 10^{-19}$ (on note $+1$)\\ 
+      \hline      
+  \end{tabu}
+  \caption{Charges électriques des particules élémentaires constituant l'atome}
+  \label{tab:charge-particules-elementaires}
+\end{table}
+
+\subsection{L'atome}
+\paragraph{Définition}
+\begin{itemize}
+  \item L'\textit{atome} se compose d'un \textit{noyau} constitué de \textit{neutrons} et de \textit{protons}, 
+  autour du quel orbitent des \textit{électrons} qui forment le \textit{nuage électronique}
+  (figure \ref{fig:atome}).  
+  \item Un \textit{atome} est \textit{neutre}, il y a \textit{autant de charges positives} (les protons) que 
+  de \textit{charges négatives} (les électrons).
+  \item la \textit{taille d'un atome} est de l'ordre de $0.1~nm$. Son \textit{noyau} est $100~000$ fois plus petit,
+soit $1~fm$.
+\end{itemize}
+\begin{figure}[!h]
+    \begin{center}
+	\includegraphics[width=0.8\columnwidth]{2.1-macro-micro/structure_atome_NB.pdf}
+    \end{center}
+    \caption{Structure simplifiée de l'atome}
+    \label{fig:atome}
+  \end{figure}
+
+
+\subsection{Écriture conventionnelle du noyau}
+\paragraph{Définition}
+\begin{itemize} 
+  \item  On appelle \textit{numéro atomique $Z$} le nombre de \textit{protons}
+  présents dans le noyau d'un atome ou d'un ion monoatomique.
+  \item On appelle \textit{nombre de masse atomique $A$} le nombre de \textit{protons 
+  et de neutrons} présents dans le noyau d'un atome ou d'un ion monoatomique.
+  \item Le \textit{symbole chimique} d'un élément est une lettre majuscule, parfois 
+  suivie d'une minuscule permettant de le désigner. Par exemple $C$ représente l'élément carbone dont $Z=6$,
+  $Na$ représente l'élément sodium où $Z=11$. 
+  \item \textit{L'écriture conventionnelle} d'un noyau permet d'indiquer
+  son symbole $X$, son numéro atomique $Z$ et son nombre de masse $A$. $$ ^A_Z X $$
+\end{itemize}
+
+
+\paragraph{Exemples} $ ^{14}_{6} C $ est un atome de carbone $C$ qui possède $Z=6$ protons et donc $N=A-Z=14-6=8$ neutrons.
+
+
+\subsection{Élément chimique}
+\paragraph{Définition} Un \textit{élément chimique} est totalement défini par son nombre de protons $Z$ 
+dans son noyau qui lui donne son nom et son symbole $X$.
+\paragraph{Exemples}$ ^{45}_{20} Ca^{2+} $ est le cation calcium, il possède $Z=20$ protons 
+et $45-20=25$ neutrons. Comme il a une charge positive $2+$, cela signifie que l'atome de calcium 
+a perdu $2$ électrons pour devenir le cation $Ca^{2+}$.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Le cortège électronique de l'atome}
+\paragraph{Introduction} De nombreuses expériences de spectroscopie du début du XX\ieme{} siècle
+ont montré que les électrons des atomes semblent être rangés autour du noyau par couches successives.
+
+\paragraph{Définition} 
+\begin{itemize}
+ \item Les électrons du cortège électronique d'un atome sont répartis dans des
+    \textit{couches} numérotées à partir de $1$, et qui contiennent des \textit{sous couches}
+    désignées par des lettres \textit{s} et  \textit{p}.
+ \item une \textit{sous couche s} contient au maximum $2$ électrons
+ \item une \textit{sous couche p} contient au maximum $6$ électrons
+ \item Le remplissage des couches et sous couches se fait par énergie croissante.  
+\end{itemize}
+Voir la figure \ref{fig:config_electronique} page \pageref{fig:config_electronique}.
+\begin{figure}[!h]
+    \begin{center}
+	\includegraphics[width=\columnwidth]{2.1-macro-micro/niveaux_energie_atome.pdf}
+    \end{center}
+    \caption{Configuration électronique des $13$ électrons de l'atome 
+    d'aluminium dans son état fondamental}
+    \label{fig:config_electronique}
+\end{figure}
+
+\paragraph{Exemples} L'atome d'hydrogène ne possède qu'un seul électron. La
+\textit{configuration électronique} de l'atome d'hydrogène sera $1s^{1}$.\\
+L'atome de carbone possède $6$ électrons. La \textit{configuration électronique} 
+de l'atome de carbone sera $1s^2 2s^2 2p^2$, et il a $4$ électrons de valence sur la
+couche $2$ composée des sous couches $2s$ et $2p$.\\
+
+\paragraph{Définition} Les \textit{électrons de valence} sont les électrons de la
+\textit{dernière couche remplie}. Ces électrons vont donner des propriétés 
+chimiques spécifiques à un élément chimique.
+
+\paragraph{Exemples} L'atome d'aluminium a pour structure électronique $1s^2 2s^2 2p^6 3s^2 3p^1$,
+sa dernière couche remplie est la troisième couche et il a $3$ électrons de valence, dont $2$ sur 
+la sous couche $3s$ et $1$ sur la sous couche $3p$.
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Vers des entités plus stables}
+
+\subsection{Classification périodique des éléments}
+
+\paragraph{Définition} Les éléments de \textit{la classification périodique} se regroupent
+en blocs $s$ et $p$ en fonction du nombre de couches remplies. Pour chaque colonne de 
+la \textit{classification périodique}, les éléments ont le même nombre d'électrons sur leur
+couche de valence. Voir la figure \ref{fig:bloc_s_p} page \pageref{fig:bloc_s_p}.
+\begin{figure}[!h]
+    \begin{center}
+	\includegraphics[width=\columnwidth]{2.1-macro-micro/classification_blocs.pdf}
+    \end{center}
+    \caption{Les blocs $s$ et $p$ dans la classification périodique des éléments pour
+    les trois premières lignes}
+    \label{fig:bloc_s_p}
+\end{figure}
+
+\paragraph{Définition} Les éléments \textit{d'une même colonne} du tableau de la classification
+périodique des éléments ont le \textit{même nombre d'électrons de valence}, ce qui leur octroie 
+les \textit{mêmes propriétés chimiques}: ils forme une \textit{familles chimiques d'éléments}. Chaque colonne 
+correspond ainsi à une famille. Voir figure \ref{fig:classification}.
+\begin{figure*}[!h]
+    \begin{center}
+	\includegraphics[width=\textwidth]{2.1-macro-micro/classification.pdf}
+    \end{center}
+    \caption{Les trois premières lignes de la classification périodique. Chaque ligne correspond au remplissage d'une couche électronique, les éléments d'une colonne ont le même nombre d'électrons de valence, les électrons de la dernière couche remplie.}
+    \label{fig:classification}
+\end{figure*}
+
+
+\subsection{Gaz nobles}
+\paragraph{Définition} La \textit{famille des gaz nobles} correspond à la \textit{dernière colonne du tableau de la
+classification périodique}. Ces éléments ne forment pas de molécules ou d'ions, ils existent simplement
+sous forme monoatomique: ils sont dit \textit{chimiquement stables}, on ne peut pas faire de réactions chimiques.\\
+On remarque que \textit{leur dernière couche électronique} est \textit{saturée à $8$ électrons}.
+\paragraph{Exemples} Configuration électronique des gaz nobles des trois premières lignes du tableau de la
+classification périodique des éléments (voir table \ref{tab:config_elec_gaz_nobles}).
+
+\begin{table}[!h]
+  \centering
+  \begin{tabu} to 0.95\columnwidth { X[l] X[2,l] }
+      \hline 
+      \textbf{Gaz noble} & \textbf{Configuration électronique} \\
+      \hline \\[-10pt]
+	Hélium & $1s^2$\\
+	Néon & $1s^2 2s^2 2p^{6}$\\
+	Argon & $1s^2 2s^2 2p^{6} 3s^2 3p^{6}$\\
+      \hline      
+  \end{tabu}
+  \caption{Configuration électronique des gaz nobles. On observe sur la dernière couche remplie
+  qu'il y a $8$ électrons: $2$ sur la sous couche $s$ et $6$ sur la sous couche $p$.}
+  \label{tab:config_elec_gaz_nobles}
+\end{table}
+
+\subsection{Ions monoatomiques}
+\paragraph{Définition} Les éléments du tableau de la classification périodique vont
+\textit{augmenter leur stabilité chimique} en gagnant ou perdant des électrons pour\textit{ avoir
+la configuration électronique} du gaz noble le plus proche dans la classification. Voir le tableau 
+\ref{tab:ions_mono_atomiques} page \pageref{tab:ions_mono_atomiques}.
+
+\begin{table*}[!h]
+  \centering
+  \begin{tabu} to 1.00\textwidth { X[1.3,l] X[1.6,l] X[0.8,l] X[1.8,l] X[1.3,l] }
+      \hline 
+      \textbf{Atome} & \textbf{Configuration électronique}  & \textbf{Gaz noble proche} &\textbf{Ion} & \textbf{Configuration électronique} \\
+      \hline \\[-10pt]
+	Hydrogène  $\textit{H}$		& $1s^1$ 				& $\textit{He}$ & Hydronium  $\textit{H}^+$ 		& pas d'électron 		\\
+	Sodium  $\textit{Na}$ 		& $1s^2 2s^2 2p^{6} 3s^1 $  		& $\textit{Ne}$ & Ion sodium  $\textit{Na}^+$ 		& $1s^2 2s^2 2p^{6}$ 		\\
+	Potassium  $\textit{K}$ 	& $1s^2 2s^2 2p^{6} 3s^2 3p^6 4s^1 $ 	& $\textit{Ar}$ & Ion potassium $\textit{K}^+$ 		& $1s^2 2s^2 2p^{6} 3s^2 3p^{6}$ \\
+	Calcium  $\textit{Ca}$ 		& $1s^2 2s^2 2p^{6} 3s^2 3p^6 4s^2 $  	& $\textit{Ar}$ & Ion calcium $\textit{Ca}^{2+}$ 	& $1s^2 2s^2 2p^{6} 3s^2 3p^{6}$ \\
+	Magnésium  $\textit{Mg}$ 	& $1s^2 2s^2 2p^{6} 3s^2 $  		& $\textit{Ne}$ & Ion magnésium $\textit{Mg}^{2+}$ 	& $1s^2 2s^2 2p^{6}$ 		\\
+	Chlore  $\textit{Cl}$ 		& $1s^2 2s^2 2p^{6} 3s^2 3p^5$  	& $\textit{Ar}$ & Ion chlorure $\textit{Cl}^{-}$ 	& $1s^2 2s^2 2p^{6} 3s^2 3p^6$ 	\\
+	Fluor  $\textit{F}$ 		& $1s^2 2s^2 2p^{5}$  			& $\textit{Ne}$ & Ion fluorure $\textit{F}^{-}$ 	& $1s^2 2s^2 2p^{6}$ 		\\
+      \hline      
+  \end{tabu}
+  \caption{Les cations se forment en perdant des électrons pour avoir la même configuration électronique qu'un gaz noble. Les
+  anions se forment en capturant des électrons pour avoir la configuration électronique d'un gaz noble }
+  \label{tab:ions_mono_atomiques}
+\end{table*}
+\paragraph{Exemple} L'atome de sodium $Na$ a pour structure électronique $1s^2 2s^2 2p^{6} 3s^1 $. Le gaz noble le plus
+proche dans la classification périodique est le néon de structure électronique $1s^2 2s^2 2p^{6}$. Le sodium va donc \textit{perdre 
+un électron} pour avoir la même configuration électronique que le gaz noble. On forme alors l'ion $Na^+$ qui a comme 
+configuration électronique $1s^2 2s^2 2p^{6}$.\\
+L'atome de chlore $Cl$ a pour configuration $1s^2 2s^2 2p^{6} 3s^2 3p^5$ et il lui manque seulement un électron pour avoir celles de l'Argon.
+Il va donc facilement capturer un électron ailleurs pour former l'ion chlorure $Cl^-$ de configuration électronique $1s^2 2s^2 2p^{6} 3s^2 3p^6$.\\
+À noter que la mise en présence de sodium métallique (atomes de $Na$) et de gaz de dichlore ($Cl_2$) produit une très vive réaction, le chlore arrachant
+un électron au sodium.
+
+\subsection{Molécules}
+\paragraph{Définition} Une \textit{molécule} est un ensemble d'atomes reliés entre eux par des \textit{liaisons chimiques}
+qui sont un \textit{partage d'une ou plusieurs paires d'électrons} afin que chaque atome puisse s'entourer de \textit{$8$ électrons}
+pour avoir la même configuration électronique qu'un gaz noble. Voir figure \ref{fig:liaison-covalente}.
+\begin{figure}[!h]
+  \begin{center}
+      \includegraphics[width=1\columnwidth]{2.1-macro-micro/liaison_covalente.pdf}
+  \end{center}
+  \caption{Partage de deux électrons entre deux atomes pour former une liaison covalente.}
+  \label{fig:liaison-covalente}
+\end{figure}
+\paragraph{Définition} En 1916, le physico-chimiste américain Gilbert Newton Lewis propose un modèle simplifié pour expliquer la formation des molécules par le
+partage de paires d'électrons. Tout atome d'une molécule sera entouré par \textit{$4$ paires d'électrons} lui permettant d'avoir sa couche de valence 
+saturée à $8$ électrons comme un gaz noble. L'atome d'hydrogène n'aura qu'une seule paire d'électrons dans une molécule.\\ 
+Les paires d'électrons servant à faire une liaison seront des \textit{doublets liants}, les paires d'électrons non engagées
+dans une liaison seront des \textit{doublets non liants}. Voir figure \ref{fig:exemple_hcn}.
+\begin{figure}[!h]
+  \begin{center}
+      \includegraphics[width=1\columnwidth]{2.1-macro-micro/exemple_HCN.pdf}
+  \end{center}
+  \caption{Formation de liaisons covalentes dans l'acide cyanhydrique. Chaque atome s'entoure de huit électrons en formant une ou plusieurs liaisons covalentes. }
+  \label{fig:exemple_hcn}
+\end{figure}
+\paragraph{Exemples} Dans les schémas suivants, tous les atomes sont entourés par $4$ doublets, liants ou non liants, seuls les atomes
+d'hydrogènes sont entourés d'un seul doublet.
+\begin{itemize}
+ \item l'eau  \chemfig{ H- \Lewis{26,O} -H}
+ \item le dioxyde de carbone \chemfig{ \Lewis{35,O}=C=\Lewis{17,O} }
+ \item l'ammoniac \chemfig{ \Lewis{4,N}(-[6]H)(-[0]H)(-[2]H)}
+ \item le méthane \chemfig{H-C(-[2]H)(-[6]H)-H}
+ \item l'éthanol \chemfig{H-C(-[2]H)(-[6]H)-C(-[2]H)(-[6]H)-\Lewis{26,O}-H}
+ \item l'éthylène \chemfig{C(-[3]H)(-[5]H)=C(-[1]H)(-[7]H)}
+ \item l'acide acétique \chemfig{H-C(-[2]H)(-[6]H)-C(=[7]\Lewis{06,O})(-[1]\Lewis{37,O}-H)}
+ \item le dichlore \chemfig{\Lewis{246,Cl}-\Lewis{026,Cl}}
+ \item le dihydrogène \chemfig{H-H}
+ \item le dioxygène \chemfig{\Lewis{35,O}=\Lewis{17,O}}
+ \item l'acide chlorhydrique \chemfig{\Lewis{246,Cl}-H}
+\end{itemize}
+
+
+
+\subsection{Énergies de liaison}
+\paragraph{Définition} L'énergie de liaison est l'énergie nécessaire pour briser cette liaison. Lors d'une réaction chimique, des liaisons se brisent et 
+se reforment pour obtenir de nouvelles molécules à partir des atomes présents au début.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Compter les entités dans un échantillon de matière}
+\subsection{Masse d'une entité chimique} 
+\paragraph{Définition} La masse $m_e$ d'une molécule ou d'un ion polyatomique est la somme des masses des atomes qui constituent cette entité. On doit donc connaître la formule brute de l'entité.\\ La masse des atomes des trois premières lignes de la classification périodique des éléments est donnée dans le tableau \ref{tab:masse-atomes-tab-periodique}.
+
+\paragraph{Exemple} La molécule d'eau a pour formule brute $H_2O$. Elle se compose de deux atomes d'hydrogène et d'un atome d'oxygène. Sachant que la masse d'un atome d'hydrogène est $m_H =  1.674 \times 10^{-24}~g$ et celle d'un atome d'oxygène est 
+$m_O =  2.657 \times 10^{-23}~g$, on peut calculer la masse de la molécule d'eaux
+\begin{equation*}
+    \begin{aligned}
+      m_{H_2O} =&  2 \times m_H + 1 \times m_O \\
+		=& 2 \times 1.674 \times 10^{-24}~g \\
+		&+ 1 \times 2.657 \times 10^{-23}~g \\
+		 =& 2.992 \times 10^{-23}~g     
+    \end{aligned}
+\end{equation*}
+
+\paragraph{Exemple} La molécule d'éthanol a pour formule brute $CH_3CH_2OH$. Les masses des différents atomes sont $m_H =  1.674 \times 10^{-24}~g$, $m_O =  2.657 \times 10^{-23}~g$ et $m_C =  1.995 \times 10^{-23}~g$. La masse d'une molécule d'éthanol sera alors 
+\begin{equation*}
+    \begin{aligned}
+      m_{CH_3CH_2OH} 	=&  6 \times m_H + 1 \times m_O + 2 \times m_C\\
+			=& 6 \times 1.674 \times 10^{-24}~g \\ 
+			&+ 1 \times 2.657 \times 10^{-23}~g  \\
+			&+ 2 \times  1.995 \times 10^{-23}~g\\
+			 =& 7.651 \times 10^{-23}~g     
+    \end{aligned}
+\end{equation*}
+
+\subsection{Nombre d'entités dans un échantillon}
+\paragraph{Définition} Si on a un échantillon composé d'un nombre $N$ d'entités identiques ayant une masse individuelle $m_e$, alors la masse totale $m$ de l'échantillon sera le produit du nombre d'entités par la masse d'une entité
+$$ m = N \times m_e$$
+
+\paragraph{Définition} Si on connaît la masse $m$ de l'échantillon et la masse individuelle des entités $m_e$, alors on peut calculer à partir de l'équation précédente le nombre $N$ d'entités composant notre échantillon en isolant ce paramètre
+\begin{equation*}
+    \begin{aligned}
+	  m &= N \times m_e \\
+	  \frac{m}{m_e} &= \frac{N \times m_e}{m_e} \\
+	  \frac{m}{m_e} &= \frac{N \times \bcancel{m_e}}{\bcancel{m_e}} \\
+	  \frac{m}{m_e} &= N  
+    \end{aligned}
+\end{equation*}
+
+\paragraph{Exemple} Un morceau de tube de cuivre a une masse $m$ de $1.5~kg$. Un atome de cuivre a une masse de $m_{Cu} =  1.055 \times 10^{-22}~g$. On va déterminer le nombre d'atomes de cuivre présents dans ce tube.\\ On utilise donc la formule $N= \frac{m}{m_{Cu}}$ en faisant attention aux unités:  $$m =  1.5~kg =  1500~g$$
+donc le nombre d'atomes de cuivre est  $$N = \frac{1500~g}{1.055 \times 10^{-22}} = 1.42 \times 10^{25}$$
+On constate que ce nombre est énorme 
+$$ N = 14~500~000~000~000~000~000~000~000$$
+
+\subsection{La mole}
+\paragraph{Définition} Pour compter plus rapidement les entités présentes dans un échantillon, on les compte par paquet contenant $N_A = 6.022\times 10^{23}$ entités. Ce paquet est appelé \textit{une mole}.
+
+\paragraph{Exemple} Si j'ai $5~mol$ d'une espèce chimique, alors mon échantillon contient un nombre totale d'entités valant $N = 5 \times N_A =  3.011\times 10^{24}$.
+
+\paragraph{Exemple} Nous allons estimer le volume occupé par \textit{une mole} de popcorn, en supposant qu'un grain occupe le volume d'un cube de $2~cm$
+d'arête. On convertit les distances en $km$ puis on calcule de volume du cube en $km^3$
+$$ V_{grain} = \left( 2.00~cm \right)^3 = \left( 2.00 \times 10^{-5}~km \right)^3$$
+$$ V_{grain} = 8.00 \times 10^{-15}~km^3$$
+On calcule le volume occupé par la mole de popcorn 
+$$ V = V_{grain} \times 6.022 \times 10^{23} = 4.8 \times 10^9 ~km^3$$
+La superficie de la France est de $S=643801~km^2$, il faudrait une hauteur $h$ de pop-corn pour avoir
+le volume $$V =  h \times S$$
+et donc $$ h = \frac{4.80 \times 10^9~km^3}{643801~km^2} = 7500~km$$
+Voir figure \ref{fig:pop_corn} page \pageref{fig:pop_corn}.
+\begin{figure}[!h]
+    \begin{center}
+	\includegraphics[width=\columnwidth]{2.1-macro-micro/mole-pop-corn.pdf}
+    \end{center}
+    \caption{Une mole de popcorn couvrirait la France sur $7500~km$ de haut}
+    \label{fig:pop_corn}
+\end{figure}
+
+\subsection{Quantité de matière}
+\paragraph{Définition} La \textit{quantité de matière $n$} contenue dans un échantillon est le <<nombre de paquets>> contenant $6.022\times 10^{23}$ entités présent dans l'échantillon. Cette \textit{quantité de matière $n$} s'exprime en $mol$.\\
+Pour calculer $n$, il faut connaître le nombre total $N$ d'entités de l'échantillon et on peut alors calculer $n$
+$$n = \frac{N}{N_A}$$
+
+\paragraph{Définition} Pour mesurer expérimentalement la quantité de matière $n$ présente dans un échantillon, il faut connaître
+\begin{itemize}
+ \item la formule brute de l'entité chimique constituant l'espèce chimique
+ \item la masse $m$ de notre échantillon.
+\end{itemize}
+Ensuite, on applique les étapes de calculs de l'algorithme (voir figure \ref{fig:mesure-qte-matiere}).
+\begin{figure}[!h]
+    \begin{center}
+	\includegraphics[width=\columnwidth]{2.1-macro-micro/mesure-qte-matiere.pdf}
+    \end{center}
+    \caption{Étapes du calcul d'une quantité de matière $n$ connaîssant la masse $m$ de l'échantillon et la formule brute des entités}
+    \label{fig:mesure-qte-matiere}
+\end{figure}
+
+\begin{table*}[!h]
+  \centering
+  \begin{tabu} to 0.8\textwidth { X[0.1,c] X[0.2,c] X[0.2,l] X[0.5,l]}
+      \hline 
+      \textbf{Z} & \textbf{Symbole} & \textbf{Nom} & \textbf{Masse (en $g$)} \\			
+      \hline \\[-10pt]
+      $1$	&H	& hydrogène	&$1.67386250415145 \times 10^{-24}$ \\
+      $2$	&He	&hélium	& 	$6.64662902690136\times 10^{-24}$ \\
+      $3$	&Li	&lithium & 	$1,15244104948522\times 10^{-23}$ \\
+      $4$	&Be	&béryllium & 	$1,49654599800731\times 10^{-23}$ \\
+      $5$	&B	&bore & 	$1,79508468947194\times 10^{-23}$ \\
+      $6$	&C	&carbone &	$1,99452009299236\times 10^{-23}$ \\
+      $7$	&N	&azote & 	$2,32597143806045\times 10^{-23}$ \\
+      $8$	&O	&oxygène & 	$2,65675855197609\times 10^{-23}$ \\
+      $9$	&F	&fluor	& 	$3,15476585851877\times 10^{-23}$ \\
+      $10$	&Ne	&néon	& 	$3,35104616406509\times 10^{-23}$ \\
+      $11$	&Na	&sodium	& 	$3,81766854865493\times 10^{-23}$ \\
+      $12$	&Mg	&magnésium& 	$4,03603454001993\times 10^{-23}$ \\
+      $13$	&Al	&aluminium	& $4,4805712387911\times 10^{-23}$ \\
+      $14$	&Si	&silicium	& $4,66373297907672\times 10^{-23}$ \\
+      $15$	&P	&phosphore	& $5,14347392892727\times 10^{-23}$ \\
+      $16$	&S	&souffre	& $5,32381268681501\times 10^{-23}$ \\
+      $17$	&Cl	&chlore		& $5,8867485885088\times 10^{-23}$ \\
+      $18$	&Ar	&argon		& $6,63367651942876\times 10^{-23}$ \\
+      \hline 
+  \end{tabu}
+  \caption{Masse des atomes des trois premières lignes du tableau de la classification périodique}
+  \label{tab:masse-atomes-tab-periodique}
+\end{table*}
+
+
+

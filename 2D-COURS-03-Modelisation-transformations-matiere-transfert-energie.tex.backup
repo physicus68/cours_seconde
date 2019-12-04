@@ -1,0 +1,247 @@
+
+\chapter{Modélisation des transformations de la matière et transfert
+d'énergie}
+\intro{ La matière peut se transformer en libérant ou absorbant de l'énergie.\\
+Une transformation physique n'est qu'un changement de phase, solide, liquide ou gazeux, durant lequel
+les molécules de la matière restent intactes. \\ Une transformation chimique transforme les molécules en
+modifiant la répartition des atomes entre diverses molécules.\\ Une transformation nucléaire modifie
+le noyau même de l'atome.}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Transformation physique}
+\subsection{Changement d'état}
+\paragraph{Définition}Un corps pur peut être dans trois états physiques en fonction
+de sa température et de la pression
+\begin{itemize}
+ \item solide
+ \item liquide
+ \item gazeux
+\end{itemize}
+Le passage d'un état à l'autre se fait à des températures précises selon le corps
+étudié, appelées températures de changement de phase.
+
+\paragraph{Exemples}
+L'eau peut être sous forme liquide, solide (glace, neige, givre) ou à l'état 
+de vapeur (voir figure \ref{fig:eau_changement_etat}).
+\begin{figure}[!h]
+  \begin{center}
+      \includegraphics[width=1\columnwidth]{3.1-transfo-physiques/palier-fusion-eau.pdf}
+  \end{center}
+  \caption{Les changements d'états de l'eau à pression atmosphérique}
+  \label{fig:eau_changement_etat}
+\end{figure}
+
+\paragraph{Définition} Le passage d'une phase à l'autre porte un nom spécifique, 
+selon la phase de départ et celle d'arrivée ( voir figure \ref{fig:nom_changements_etats}).
+\begin{figure}[!h]
+  \begin{center}
+      \includegraphics[width=1\columnwidth]{3.1-transfo-physiques/changements-phases.pdf}
+  \end{center}
+  \caption{Noms des différents types de changements d'états}
+  \label{fig:nom_changements_etats}
+\end{figure}
+
+\paragraph{Remarque} La vaporisation est une évaporation avec ébullition du corps.
+
+\subsection{Modélisation microscopique}
+\paragraph{Définition} On peut modéliser les trois phases de la matière de la façon suivante
+\begin{itemize}
+  \item  Dans un \textit{corps pur solide}, les atomes, ions ou  molécules qui le constituent sont 
+  organisés dans une \textit{structure cristalline} qui est \textit{très ordonnée et régulière}.
+ 
+  \item Dans un \textit{corps pur liquide}, les atomes, ions ou  molécules qui le constituent 
+  sont dans une \textit{structure désorganisée}, ils peuvent \textit{se déplacer}
+  les uns par rapport aux autres, \textit{en restant très proches}.
+
+  \item Dans un \textit{corps pur gazeux}, les atomes, ions ou  molécules qui le constituent 
+  sont dans une \textit{structure désorganisée}, ils se déplacent à des \textit{vitesses
+  importantes} et sont \textit{éloignés les uns des autres}.
+\end{itemize}
+
+\paragraph{Définition} Pour un changement d'état, lors du passage 
+$solide \rightarrow liquide \rightarrow gaz$, la structure de la matière 
+est de plus en plus \textit{désordonnée}.\\
+Le passage $gaz \rightarrow liquide\rightarrow solide$ se caractérise par un état de plus en plus 
+\textit{ordonné} de la matière.
+
+Voir figure \ref{fig:changements-phases-structure}.
+
+\begin{figure}[!h]
+  \begin{center}
+      \includegraphics[width=\columnwidth]{3.1-transfo-physiques/changements-phases-structure.pdf}
+  \end{center}
+  \caption{Structure de la matière dans les phases solide, liquide et gaz}
+  \label{fig:changements-phases-structure}
+\end{figure}
+
+\subsection{Transfert thermique}
+\paragraph{Définition} Une transformation \textit{endothermique} \textit{absorbe de l'énergie} $E$ quand elle se produit.\\
+$$\textit{corps}_{\textit{solide}} + E \xrightarrow{\textit{fusion}} \textit{corps}_{\textit{liquide}}$$
+$$\textit{corps}_{\textit{liquide}} + E \xrightarrow{\textit{vaporisation}} \textit{corps}_{\textit{gaz}}$$
+$$\textit{corps}_{\textit{solide}} + E \xrightarrow{\textit{sublimation}} \textit{corps}_{\textit{gaz}}$$  
+Une transformation \textit{exothermique} \textit{libère de l'énergie} $E$ quand elle se produit.\\
+$$\textit{corps}_{\textit{liquide}} \xrightarrow{\textit{solidification}} \textit{corps}_{\textit{solide}} + E$$
+$$\textit{corps}_{\textit{gaz}}  \xrightarrow{\textit{liquéfaction}} \textit{corps}_{\textit{liquide}} + E$$
+$$\textit{corps}_{\textit{gaz}}  \xrightarrow{\textit{condensation~solide}} \textit{corps}_{\textit{solide}} + E$$
+
+
+\paragraph{Définition} L'\textit{énergie de fusion} $E_f$ (en $J$) est l'énergie nécessaire pour faire \textit{fondre une masse} $m$ (en $kg$) d'un corps pur d'énergie massique de fusion $L_f$ (en $J.kg^{-1}$). $$ E_f = m \times L_f $$ Quand le corps se solidifie, il va libérer la même énergie. \\
+
+L'\textit{énergie de vaporisation} $E_v$ (en $J$) est l'énergie nécessaire pour  \textit{vaporiser une masse} $m$ (en $kg$) d'un corps pur d'énergie massique de vaporisation $L_v$ (en $J.kg^{-1}$).$$ E_v = m \times L_v $$ 
+Quand le corps se liquéfie, il va libérer la même énergie.
+
+
+\subsection{Applications des changements d'états}
+\begin{itemize}
+ \item Quand on utilise une glacière, on y place des blocs de glace qui absorbent l'énergie thermique entrant dans la glacière. Tant que la glace se transforme en eau,cette énergie ne peut pas augmenter la température des objets dans la glacière.
+ \item Les petites chaufferettes qui se déclenchent par un choc et où l'on observe un liquide devenant solide utilisent une espèce chimique en surfusion, et quand elle change de phase, elle libère l'énergie sous forme thermique. 
+ \item Certains mammifères transpirent, l'eau en s'évaporant absorbe l'énergie thermique du corps et permet de le refroidir. 
+ \item Dans les années $1970$ les sondes russes VENERA qui atterrissaient à la surface de Vénus où la température est de $400~{}^oC$, utilisaient la sublimation de nitrate de lithium tri hydraté pour absorber l'énergie thermique qui entrait dans la sonde.
+ \item Les sondes spatiales utilisent un bouclier thermique pour entrer dans une atmosphère, le bouclier se sublime, ce qui permet d'évacuer une partie de l'énergie thermique due au frottement avec l'atmosphère, la sonde perd ainsi de l'énergie cinétique et est ralentie, passant à une vitesse de quelques kilomètres par seconde à quelques centaines de mètre par seconde. 
+\end{itemize}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Transformation chimique}
+\subsection{Réaction chimique}
+\paragraph{Définition} Lors d'une \textit{réaction chimique}, les \textit{réactifs disparaissent} pour former \textit{les produits qui apparaissent}. Il
+y a \textit{conservation de la matière}, la masse reste constante, et \textit{conservation de la charge électrique}, elle reste constante lors de la réaction.
+
+$$\textit{réactifs}  \xrightarrow{} \textit{produits} $$
+$$\textit{masse des réactifs}  = \textit{masse des produits} $$
+\begin{equation*}
+  \begin{aligned}    
+    \textit{somme des charges électriques des réactifs} &= \\
+    \textit{somme des charges électriques des produits} &    
+ \end{aligned} 
+\end{equation*}
+
+\subsection{Équation de réaction chimique}
+\paragraph{Définition}
+Une \textit{équation de réaction chimique} indique comment les atomes se réorganisent quand des réactifs réagissent pour former des produits. Cette 
+équation respecte la conservation de la masse: \textit{tous les atomes présents dans les réactifs se retrouvent dans les produits} et la conservation 
+de la charge électrique: \textit{la charge électrique totale de tous les réactifs est identique à la charge totale de tous les produits}.
+Une équation de réaction chimique est équilibrée, les coefficients stoechiométriques indiquent en quelles proportions les réactifs réagissent entre eux
+et les produits apparaissent.
+\paragraph{Exemples à connaître}
+\begin{itemize}
+ \item combustion du carbone $$ C + O_2 \xrightarrow{} CO_2$$
+ \item combustion du méthane $$ CH_4 + 2 \times  O_2 \xrightarrow{} CO_2 + 2 \times H_2O $$
+ \item corrosion d'un métal par un acide $$ Zn + 2 \times H_3O^+ \xrightarrow{} Zn^{2+} + H_2 + 2 \times H_2O $$
+ \item action d'un acide sur le calcaire $$ 2 \times HCl + CaCO_3  \xrightarrow{} CaCl_2 + CO_2 + H_2O $$
+ \item action de l'acide chlorhydrique sur l'hydroxyde de sodium $$ H_3O^+ + Cl^- + Na^+ + OH^-  \xrightarrow{} 2 \times H_2O + Cl^- + Na^+ $$
+ Les ions  $Na^+$ et $Cl^-$ sont des \textit{espèces spectatrices}, elles ne participent pas à la réaction chimique.
+\end{itemize}
+
+
+\subsection{Recherche du réactif limitant}
+\paragraph{Définition} Le \textit{réactif limitant} est le réactif qui va disparaître en premier lors d'une réaction chimique, et c'est donc lui qui va
+arrêter la réaction.
+\paragraph{Méthode} Pour rechercher le réactif limitant d'une réaction dont on connaît l'équation de réaction équilibrée, il faut
+\begin{itemize}
+ \item calculer le nombre de moles de chaque réactif présent au début de la réaction
+ \item diviser ce nombre de mole par le coefficient stoechiométrique correspondant au réactif
+ \item le réactif ayant \textit{le plus petit rapport} sera le r\textit{réactif limitant la réaction}, les autres seront en excès
+\end{itemize}
+
+\paragraph{Exemple} On a une réaction de combustion entre le dioxygène $O_2$ et le butane $C_4H_{10}$, dont l'équation de réaction est
+$$ C_4H_{10} + \frac{13}{2} \times O_2 \xrightarrow{} 4 \times CO_2 + 5 \times H_2O $$ Initialement, on a $0.42~mol$ de butane et $0.23~mol$ de dioxygène.
+On recherche le réactif limitant en appliquant la méthode décrite ci-dessus.
+\begin{itemize}
+ \item $n(O_2) = 0.23~mol$, et $ n_{butane} = 0.42~mol$
+ \item $\frac{0.23}{\frac{13}{2}} = 0.0354$ et $\frac{0.42}{1} = 0.42$
+ \item le rapport le plus petit est celui correspondant au dioxygène
+\end{itemize}
+Le réactif limitant est le dioxygène.
+
+
+\subsection{Réactions exothermiques et endothermiques}
+\paragraph{Définition}
+Si lors d'une réaction chimique, de l'énergie est \textit{dégagée} (lumière, chaleur) alors la réaction est \textit{exothermique}. \\
+Si lors d'une réaction chimique, de l'énergie est \textit{absorbée} (diminution de la température) alors la réaction est \textit{endothermique}. \\
+\paragraph{Exemple}
+Les réactions de combustion sont exothermiques, elles sont utilisées depuis longtemps par les Hommes pour se chauffer, s'éclairer et cuire des aliments.
+
+\subsection{Synthèse d'une espèce chimique}
+\paragraph{Définition} Synthétiser une espèce chimique, c'est fabriquer cette espèce par une suite de réactions chimiques, de méthode de purification, de séparation, d'extractions et de caractérisations. L'espèce chimique peut être une copie d'une espèce naturelle ou une création de l'Humain. On peut utiliser un système de chauffage à reflux pour faire une synthèse. Voir figure \ref{fig:chauffage-reflux}.
+\begin{figure}[!h]
+  \begin{center}
+      \includegraphics[width=1\columnwidth]{3.1-transfo-physiques/chauffage_reflux.pdf}
+  \end{center}
+  \caption{Montage d'un chauffage à reflux}
+  \label{fig:chauffage-reflux}
+\end{figure}
+\paragraph{Définition} La chromatographie sur couche mince est une technique de séparation des composants dans un but d'analyse ou de purification. Elle comprend une phase stationnaire (usuellement du gel de silice, de l'oxyde d'aluminium ou de la cellulose) et 
+une phase liquide, dite phase mobile ou éluant qui est un solvant ou un mélange de solvants qui va entraîner les composés à se séparer le long de la phase stationnaire. Voir figure \ref{fig:chromatographie}.
+\begin{figure}[!h]
+  \begin{center}
+      \includegraphics[width=1\columnwidth]{3.1-transfo-physiques/chromatographie.pdf}
+  \end{center}
+  \caption{Caractérisation par chromatographie sur couche mince. On sépare les constituants d'un mélange grâce à l’entraînement par un éluant des différentes espèces à des vitesses différentes et on compare à des espèces pures.}
+  \label{fig:chromatographie}
+\end{figure}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Transformation nucléaire}
+\subsection{Isotope}
+\paragraph{Définition} Les \textit{isotopes} sont des noyaux d'atomes possédant le \textit{même nombre de proton} $Z$ mais un nombre de neutrons différents.
+Ils ont donc les mêmes propriétés chimiques, mais des masses très légèrement différentes.
+\paragraph{Exemples} Quelques isotopes de l'élément Titane ($Z=22$)
+\begin{itemize}
+ \item ${}^{46}Ti $ possède $22$ protons et $46-22=24$ neutrons
+ \item ${}^{47}Ti $ possède $22$ protons et $47-22=25$ neutrons
+ \item ${}^{48}Ti $ possède $22$ protons et $48-22=26$ neutrons 
+\end{itemize}
+L'argon $40$ (${}^{40}Ar$)et le calcium $40$ (${}^{40}Ca$) ne sont pas des isotopes, car leur nombre de protons $Z$ est différent: $Z= 18$ pour
+l'argon et $Z =  20$ pour le calcium.
+
+\subsection{Réaction nucléaire}
+\paragraph{Définition} Une réaction nucléaire va modifier le noyau de l'atome, son nombre de protons $Z$ et son nombre de nucléons $A$ vont être modifiés.
+L'élément va changer puisque $Z$ change.
+
+\subsection{Écriture symbolique d'une réaction nucléaire}
+\paragraph{Définition} On peut décrire une \textit{réaction nucléaire} par une \textit{équation de réaction} qui explicite la manière dont les noyaux atomiques changent, tout en respectant des règles de conservations (règles de Soddy)
+$$ {}^{A_1}_{Z_1}X_1 + {}^{A_2}_{Z_2}X_2 \xrightarrow{} {}^{A_3}_{Z_3}Y_3 + {}^{A_4}_{Z_4}Y_4$$
+\begin{itemize}
+ \item la masse doit se conserver $A_1 + A_2 = A_3 + A_4$
+ \item la charge électrique doit se conserver $Z_1 + Z_2 = Z_3 + Z_4$
+\end{itemize}
+\paragraph{Exemples}
+Désintégration du carbone $14$ pour former de l'azote et éjecter un électron $e^{-}$
+$${}^{14}_6C \xrightarrow{} {}^{14}_7N + e^{-}$$ 
+
+\subsection{Réaction de fusion nucléaire}
+\paragraph{Définition} Au cœur du Soleil se produisent des \textit{réactions de fusion nucléaires} qui dégagent une énorme énergie. Elles fusionnent des noyaux
+d'atomes pour former des noyaux plus lourds.
+\paragraph{Exemples} Quelques réactions de fusions nucléaires se produisant dans le Soleil
+\begin{itemize}
+ \item $ {}^1_1H + {}^1_1H \xrightarrow{} {}^2_1H + {}^0_1e^+$
+ \item $ {}^2_1H + {}^1_1H \xrightarrow{} {}^3_2He $
+ \item $ {}^3_2He + {}^4_2He \xrightarrow{} {}^7_4Be $
+ \item $ {}^7_4Be + {}^1_1H \xrightarrow{} {}^8_5B $
+ \item $ {}^{12}_6C + {}^1_1H \xrightarrow{} {}^{13}_7N $
+\end{itemize}
+
+\subsection{Réaction de fission nucléaire}
+\paragraph{Définition} Au cœur d'une centrale nucléaire, des réactions de fission permettent de casser des noyaux atomiques pour former des 
+noyaux plus légers, et elles dégagent beaucoup d'énergie, utilisée pour fabriquer de la vapeur permettant de faire tourner des turbines reliées à
+des alternateurs qui transforment le mouvement en énergie électrique.
+\paragraph{Exemples} Un neutron ${}^1_0n$ vient frapper le noyau d'un atome d'Uranium $235$ ${}^{235}U$ qui va se briser pour former des
+noyaux plus légers de Krypton et de Baryum et en éjectant $3$ neutrons.
+$$ {}^1_0n + {}^{235}_{92}U \xrightarrow{} {}^{139}_{56}Ba + {}^{94}_{36}Kr + 3 \times {}^1_0n$$
+
+\section{Reconnaître le type de transformation à partir de l'équation de réaction }
+\paragraph{Définition}
+\begin{itemize}
+ \item une \textit{transformation physique} ne change pas les molécules, elles restent identiques
+ $$ H_2O_{(s)} \xrightarrow{} H_2O_{(g)}$$
+ \item une \textit{transformation chimique} change les molécules mais pas les atomes, ils sont ré-arrangés différemment dans de nouvelles molécules
+ $$ 2H_{2_{(g)}} + O_{2_{(g)}} \xrightarrow{} 2 H_2O_{(g)}$$
+ \item une \textit{transformation nucléaire} modifie le noyau des atomes, la nature chimique de l'élément change
+ $$ {}^2_1H + {}^1_1H \xrightarrow{} {}^3_2He$$
+\end{itemize}
+\paragraph{Énergies libérées}
+Les énergies libérées lors des différents types de transformations sont très différentes, voici quelques ordres de grandeurs
+\begin{itemize}
+ \item transformation physique de $10^2$ à $10^3 ~kJ.kg^{-1}$
+ \item transformation chimique de $10^4$ à $10^5 ~kJ.kg^{-1}$
+ \item transformation nucléaire de l'ordre de  $10^{11} ~kJ.kg^{-1}$ 
+\end{itemize}

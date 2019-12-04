@@ -1,0 +1,529 @@
+\chapter{Description et caractérisation de la matière à l'échelle macroscopique}
+
+\intro{À notre échelle, la matière nous apparaît sous forme solide, liquide ou gazeuse.
+ Elle est constituée d'une même espèce chimique ou peut être un mélange en apparence 
+homogène ou hétérogène. Le chimiste ou le physicien va pouvoir analyser la composition
+de la matière en pesant et mesurant des volumes de matière.}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Corps purs et mélanges}
+
+\subsection{Corps pur}
+\paragraph{Définition} Un \textit{corps pur} est composé d'une seule espèce
+chimique.
+\paragraph{Exemple} L'eau distillée ne contient que des molécules d'eau
+$H_2 O$, le cuivre pur ne contient que les atomes de $Cu$, le dioxygène
+n'est constitué que de molécules $O_2$.
+
+\subsection{Mélange} 
+\paragraph{Définition} Un \textit{mélange contient plusieurs espèces chimiques}.
+Le mélange est \textit{homogène} si les espèces chimiques ne sont
+pas discernables. Dans le cas contraire, le mélange est \textit{hétérogène}.
+\paragraph{Exemple} L'air, l'eau salée ou sucrée sont des mélanges homogènes.
+Le sang, le lait sont des mélanges hétérogènes.
+
+
+\subsection{Identification d'espèces chimiques par des méthodes physiques}
+\paragraph{Méthodes physiques} Une \textit{espèce chimique} peut être identifiée 
+par
+\begin{itemize}
+ \item ses températures de changement d'état
+ \item sa masse volumique $ \rho$ par rapport à celle de l'eau 
+\end{itemize}
+La masse volumique de l'eau vaut $ \rho = 1.0~g.mL^{-1}$. Voir le 
+protocole de travaux pratique \ref{TP:mesure-masse-volumique-eau-huile} à
+la page \pageref{TP:mesure-masse-volumique-eau-huile}.
+
+\paragraph{Masse volumique $\rho$} La \textit{masse volumique $\rho$} d'un corps (solide, liquide ou gaz) est le coefficient de proportionnalité entre sa masse $m$ et son volume $V$. 
+$$ m = \rho \times V$$
+L'unité de la masse volumique dépend des unités choisies pour la masse et le volume. Si $m$ est en gramme ($g$) et $V$ en millilitre ($mL$) alors $\rho$ est en gramme par millilitre ($g.mL^{-1}$).
+
+
+\subsection{Identification d'espèces chimiques par des méthodes chimiques}
+\paragraph{Test de présence de l'eau} 
+La présence d'eau peut être mise en évidence par le test au sulfate de cuivre anhydre, poudre de
+couleur blanche, qui devient bleue en présence d'eau. On peut verser une goutte de liquide à 
+tester dessus ou déposer un peu de poudre sur un solide où on cherche la présence d'eau (figure 
+\ref{fig:test_presence_eau}).
+\begin{figure}[h]
+  \begin{center}
+      \includegraphics[width=\columnwidth]{1.1.-melanges/test_presence_eau.pdf}
+  \end{center}
+  \caption{La présence d'eau est confirmée par la coloration en bleu du sulfate de cuivre anhydre}
+  \label{fig:test_presence_eau}
+\end{figure}
+
+\paragraph{Test de présence du dihydrogène}
+Le dihydrogène $H_2$ se détecte par le test de la flamme qui provoque une petite explosion (figure 
+\ref{fig:test_presence_H2}).
+Attention, la quantité de gaz à tester doit être très faible, dans un petit tube à essai, 
+car la réaction de combustion est très violente!
+\begin{figure}[h]
+  \begin{center}
+      \includegraphics[width=\columnwidth]{1.1.-melanges/test_presence_H2.pdf}
+  \end{center}
+  \caption{La présence de dihydrogène est confirmée par une explosion. Attention, ce test doit être
+  fait avec de très petites quantités de gaz, l'explosion étant très violente.}
+  \label{fig:test_presence_H2}
+\end{figure}
+
+\paragraph{Test de présence du dioxygène}
+Le dioxygène se détecte en plaçant un charbon incandescent dans un récipient où il y a du dioxygène.
+Le charbon va s'enflammer grâce à l'oxygène (figure \ref{fig:test_presence_O2}).
+\begin{figure}[h]
+  \begin{center}
+      \includegraphics[width=\columnwidth]{1.1.-melanges/test_presence_O2.pdf}
+  \end{center}
+  \caption{La présence de dioxygène ravive une flamme à l'extrémité d'un bout de bois incandescent.}
+  \label{fig:test_presence_O2}
+\end{figure}
+
+\paragraph{Test de présence du dioxyde de carbone}
+Le dioxyde de carbone se détecte en faisant barboter le gaz dans de l'eau de chaux, qui va se troubler à
+cause de la formation d'un précipité (figure \ref{fig:test_presence_CO2}).
+\begin{figure}[h]
+  \begin{center}
+      \includegraphics[width=\columnwidth]{1.1.-melanges/test_presence_CO2.pdf}
+  \end{center}
+  \caption{La présence de dioxyde de carbone trouble l'eau de chaux où barbote le gaz à tester.}
+  \label{fig:test_presence_CO2}
+\end{figure}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Composition d'un mélange}
+\subsection{Composition massique}
+\paragraph{Définition} Dans un \textit{mélange d'espèces chimiques} de masse totale $m$,
+une des espèces chimiques a une masse $m_i$. On calcule alors son 
+\textit{pourcentage massique} grâce à la formule $$ \frac{m_i}{m} \times 100$$
+qui s'exprime en $\%~mas $. Donner la \textit{composition massique du mélange}
+c'est donner les pourcentages massiques de tous les composants.
+\paragraph{Exemples} Une solution contient $5.00~g$ d'hydroxyde de sodium $NaOH$
+dans $100~g$ d'eau. La masse totale sera $m=100 + 5 = 105~g$ et donc le pourcentage
+en masse d'hydroxyde sera $$\frac{5.00}{105} \times 100 = 4.77~\%~mas$$ \\
+On veut savoir quelles masses de chlorure de sodium $NaCl$ et d'eau $H_{2}O$ prendre
+pour avoir $175~g$ d'une solution à $15~\%~mas$ en chlorure de sodium. Si j'appelle
+$a$ la masse de chlorure de sodium et $b$ la masse d'eau, je peux écrire que la masse
+totale sera $$ a + b = 175~g$$ Si il y a $15~\%~mas$ en chlorure de sodium, je peux 
+aussi écrire que $$ \frac{b}{175} \times 100 = 15$$ En divisant à gauche et à droite 
+par $100$ puis en simplifiant $$ \frac{b}{175} = 0.15$$ et enfin en multipliant à 
+gauche et à droite par $175$ et en simplifiant $$b = 26.25$$ c'est à dire qu'il faut
+une masse de chlorure de sodium $b=26.25~g$ qu'on dissoudra dans une masse $a = 175 -b=
+148.75~g$ d'eau.
+\subsection{Composition volumique}
+\paragraph{Définition}Dans un mélange d'espèces chimiques de volume total $V$, 
+une des espèces chimiques a un volume $V_i$. On calcule alors son 
+\textit{pourcentage volumique} grâce à la formule $$ \frac{V_i}{V} \times 100$$
+qui s'exprime en $\%~vol $. Donner la \textit{composition volumique du mélange}
+c'est donner les pourcentages volumiques de tous les composants.
+\paragraph{Cas de l'air} L'air que nous respirons a la composition volumique moyenne
+suivante (tableau \ref{tab:composition_atmosphere}).
+\begin{table}[h!]
+  \centering
+  \begin{tabu} to 0.95\linewidth {  X[2,l]  X[c]  }
+    \hline
+      \multirow{2}{4em}{\textbf{Élément}} & \textbf{Volume} \\
+				      & \textbf{(en $\%~vol$)} \\
+    \hline
+      Azote $N_2$ & $78.09$ \\
+      Oxygène $O_2$ & $20.95$ \\
+      Argon $Ar$ & $0.93$ \\
+      Dioxyde de carbone $CO_2$ & $0.035$ \\
+      Autres gaz &  $...$ \\ 
+    \hline
+  \end{tabu}
+  \caption{Composition volumique de l'atmosphère terrestre}
+  \label{tab:composition_atmosphere}
+\end{table}
+\paragraph{Exemple} Si on prend un volume d'air $V=5.2~L$, alors
+d'après le tableau \ref{tab:composition_atmosphere}, comme la 
+composition volumique en azote est de $78.09~\%$, on peut écrire
+$$ \frac{V_i}{5.2~L}\times 100 = 78.09$$ On divise à gauche et à droite 
+par $100$ puis on multiplie à gauche et à droite par $5.2~L$, on
+a alors le volume d'azote $$V_i = 4.1~L$$
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Solutions aqueuses}
+\subsection{Solution}
+\paragraph{Définition} Une \textit{solution} se constitue d'un liquide
+\textit{le solvant} dans lequel est dissout \textit{le soluté} qui est
+une espèce chimique moléculaire ou ionique. Voir la figure \ref{fig:solution}. Si le solvant est de l'eau,
+on parle de \textit{solution aqueuse}.
+\begin{figure}[h!]
+  \begin{center}
+      \includegraphics[width=0.8\columnwidth]{1.3.-schema-solution/schema_solution.pdf}
+  \end{center}
+  \caption{Une solution se compose d'un soluté dissout dans un solvant}
+  \label{fig:solution}
+\end{figure}
+
+
+\subsection{Concentration en masse}
+\paragraph{Définition} La \textit{concentration massique $t$} d'une solution
+est le rapport entre la masse $m$ de \textit{soluté} présent et le volume
+$V$ de \textit{solution} $$t = \frac{m}{V}$$
+Les unités sont
+\begin{itemize}
+ \item pour la masse $m$: le gramme $g$
+ \item pour le volume $V$: le litre $L$
+ \item pour la concentration massique $t$: le gramme par litre $g.L^{-1}$
+\end{itemize}
+
+\subsection{Concentration maximale}
+\paragraph{Définition} Pour un \textit{soluté donné}, il existe une 
+\textit{concentration maximale} que l'on peut atteindre et au delà de laquelle
+le \textit{soluté apporté} n'est plus capable de se dissoudre dans le solvant. Voir figure \ref{fig:solution_saturee}.
+\begin{figure}[h!]
+  \begin{center}
+      \includegraphics[width=\columnwidth]{1.3.-schema-solution/solution_saturee.pdf}
+  \end{center}
+  \caption{Une solution de concentration massique théorique $t$ supérieure à une concentration maximale $t_{max}$ ne sera 
+  pas réalisable, car il restera du solide impossible à dissoudre car la concentration maximale est atteinte.}
+  \label{fig:solution_saturee}
+\end{figure}
+
+\paragraph{Exemple}
+On peut dissoudre au maximum $358~g$ de chlorure de sodium dans $1.00~L$ d'eau à $20~{}^o C$. 
+Pour le chlorure d'argent, on peut dissoudre dans $1~L$ d'eau pur seulement $2,4~mg$ de ce sel.
+Pour le glucose, on peut dissoudre dans un litre d'eau environ $900~g$ de cristaux de glucoses.
+
+\subsection{Réalisation d'une solution} Pour fabriquer un volume $V$
+de solution de \textit{concentration massique} $t$, on doit peser une masse $m$
+de soluté de manière à avoir une concentration massique $$t=\frac{m}{V}$$
+Ensuite, on procède à sa dissolution dans une fiole jaugée de volume $V$.
+Voir figure \ref{fig:fab-sol-dissolution} page \pageref{fig:fab-sol-dissolution}.
+
+\begin{figure*}[h!]
+  \begin{center}
+      \includegraphics[width=\textwidth]{1.3.-schema-solution/fab-sol-dissolution.pdf}
+  \end{center}
+  \caption{Fabrication d'une solution par dissolution}
+  \label{fig:fab-sol-dissolution}
+\end{figure*}
+
+
+\subsection{Dilution d'une solution}
+Si on a une \textit{solution mère} de concentration massique $t_{m}$
+et de volume $V_m$ on peut fabriquer une \textit{solution fille} de volume
+$V_f$ et de concentration $t_f$ en ajoutant du solvant et on aura la
+relation $$ V_f \times t_f = V_m \times t_m$$
+Voir figure \ref{fig:fab-sol-dilution} page \pageref{fig:fab-sol-dilution}.
+
+\begin{figure*}[h!]
+  \begin{center}
+      \includegraphics[width=\textwidth]{1.3.-schema-solution/fab-sol-dilution.pdf}
+  \end{center}
+  \caption{Fabrication d'une solution par dilution.}
+  \label{fig:fab-sol-dilution}
+\end{figure*}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Dosage par étalonnage}
+\subsection{Dosage}
+\paragraph{Définition}
+Faire un \textit{dosage} en chimie, c'est \textit{mesurer la
+concentration} d'une espèce chimique dans une solution. Pour mesurer 
+cette concentration, on utilise des méthodes physiques ou chimiques.
+\paragraph{Exemple} Les grandeurs que l'on peut utiliser pour mesurer
+une concentration peuvent être la masse volumique, la couleur, la conductivité
+électrique, le pH, etc. ...
+
+\subsection{Étalonnage}
+\paragraph{Définition}
+Pour réaliser un \textit{dosage par étalonnage} d'une espèce chimique en solution, on \textit{fabrique
+des solutions étalons} dont on connaît précisément la concentration et on mesure une grandeur
+physique correspondant à cette solution. Ensuite, après avoir tracé une \textit{courbe 
+d'étalonnage}, on mesure la même grandeur physique pour la solution inconnue et on en déduit 
+la valeur de sa concentration \textit{par comparaison}.
+\paragraph{Exemple}
+Pour doser le saccharose dans $1~L$ de \textit{Coca Cola}, on a fabriqué par dissolution quatre solutions étalons de $100~mL$ de concentration massique précise dont on mesure ensuite la masse volumique $\rho $. On trace   la masse volumique en fonction de la concentration massique, puis après avoir mesuré la masse volumique du Coca Cola, on en déduit la concentration massique en saccharose $t_{\textit{Coca Cola}} = 106~g.L^{-1}$.
+Voir figure \ref{fig:courbe_etalonnage_cocacola}.
+\begin{figure}[h!]
+  \begin{center}
+      \includegraphics[width=0.9\columnwidth]{1.3.-schema-solution/courbe_etalonnage_cocacola.pdf}
+  \end{center}
+  \caption{Dosage par étalonnage de la concentration massique en saccharose du \textit{Coca Cola}.}
+  \label{fig:courbe_etalonnage_cocacola}
+\end{figure}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Exercices}
+\setcounter{numexos}{0}
+\subsection*{Corps purs et composition des mélanges} 
+\exercice{\textbf{a.} Donnez la définition d'une \textit{espèce chimique}, d'un \textit{corps pur}, 
+d'un \textit{mélange homogène} et d'un \textit{mélange hétérogène}.\\
+\textbf{b.} Donnez dans chaque cas précédent un exemple.}
+\exercice{\textbf{a.} Donnez la \textit{définition} de la \textit{masse volumique} d'un corps, ainsi que 
+la \textit{formule} et les \textit{unités} à utiliser.\\
+\textbf{b.} À partir de la formule précédente, isolez le volume $V$. \\
+\textbf{c.} À partir de la formule précédente, isolez la masse volumique $\rho$.
+}
+\exercice{On appelle la \textit{densité $d$ par rapport à l'eau} d'un corps le rapport de la masse volumique $\rho$ du corps et de celle de l'eau $\rho_{\textit{eau}}$. À partir de cette formule isolez \textit{la masse volumique $\rho$}.
+}
+\exercice{Expliquez comment on peut détecter la présence d'eau dans un échantillon 
+  d'une substance solide.}
+\exercice{Expliquez comment on peut détecter la présence de dihydrogène dans un mélange gazeux.
+}
+\exercice{Expliquez comment on peut détecter la présence de dioxygène dans un mélange gazeux.
+}
+\exercice{Expliquez comment on peut détecter la présence de dioxyde de carbone dans 
+  un mélange gazeux.}
+
+\exercice{Complétez les valeurs manquantes dans le tableau suivant en utilisant la définition de la
+masse volumique d'un corps. On sera vigilant quand à l'utilisation des bonnes unités de 
+mesure et des conversions à effectuer (Voir tableau \ref{tableau_masses_volum}).
+\begin{table*}[h!]
+ \centering
+  \begin{tabu} to 0.6\textwidth { X[l]  X[c]  X[c]   X[2,c] }
+    \hline
+    \textbf{Corps} & $\bm{m}$ & $\bm{V$}  &$\bm{\rho}$  \\ \hline
+    eau & $1000~kg$ & $1~m^3$  &  ... $~kg\cdot m^{-3}$  \\
+    eau & $260~kg$ & ... $~L$  &  $1000~g\cdot L^{-1}$  \\    
+    acier & ...$~kg$ &$5.6~L$  &  $7833~kg\cdot m^{-3}$  \\
+    kérosène & $820~g$ &$1.0~L$  & ... $~kg\cdot m^{-3}$  \\
+    gravier & ... $~t$ &$20.0~m^{3}$  & $1800~kg\cdot m^{-3}$  \\        
+    sable & $5~t$ & ...$~m^{3}$  & $1400~kg\cdot m^{-3}$  \\        
+    \hline
+  \end{tabu}
+  \caption{Masses volumiques }
+  \label{tableau_masses_volum}
+\end{table*}
+}
+
+\exercice{\textbf{a.~}L'étiquette sur l'emballage d'une brioche indique que dans deux tranches de $67~g$,
+  on trouve $8.5~g$  de matière grasse, $32.7~g$ de glucides, $5.2~g$ de protéines et
+  $0.67~g$ de sel. Calculez la masse en pourcent pour chaque constituant présent 
+  dans une brioche. \\
+  \textbf{b.~} Calculez la masse totale des ingrédients et expliquez d'où pourrait provenir
+  la différence observée. Comment pourrait-on faire simplement pour se débarrasser 
+  de cet ingrédient?}
+
+\exercice{Un biogaz est issu de déchets organiques (naturels, industriels, d’origine animale, 
+ménagère etc. ...). C'est un mélange de plusieurs gaz, essentiellement du méthane 
+$CH_4$, du gaz carbonique $CO_2$ et d'autres gaz en quantités plus faibles.\\
+La présence de dioxyde de soufre $H_2S$, de $CO_2$ et d’eau $H_2O$ rend le biogaz très 
+corrosif et nécessite l’utilisation des matériaux adaptés. \\
+  Le tableau \ref{tab:exercice-biogaz} donne la composition volumique en pourcent de différents biogaz en 
+fonction du procédé d'obtention. Calculez pour chaque type de biogaz la quantité de 
+dioxyde de carbone en litre contenue dans $4.5~m^3$ de biogaz.
+
+
+\begin{table*}[!h]  
+  \centering
+  \begin{tabu}   to 0.8\textwidth  { X[c]  X[c]  X[1.5,c]  X[c]   X[1.5,c] }
+    \hline
+    \textbf{Composants} & \textbf{Ordures ménagères} & \textbf{Boues de station d'épuration}
+    & \textbf{Déchets agricoles*} & \textbf{Déchets de l’industrie agro-alimentaire}  \\  
+    \hline
+    $CH_4$ & $50$ à $60$ & $60$ à $75$ & $60$ à $75$ & $68$ \\     
+    $CO_2 $ & $38$ à $34$ & $33$ à $19$ & $33$ à $19$ & $26$ \\ 
+    $H_2O$ & $6$ (à $40~^OC$) &  $6$ (à $40~^OC$)  &$6$ (à $40~^OC$)  &$6$ (à $40~^OC$)  \\
+    \hline
+  \end{tabu}
+  \caption{Composition en volume de différents biogaz, d'après www.biogaz-energie-renouvelable.info. \\ * Les déchets agricoles sont riches en $H_2S$ et $NH_3$. }
+  \label{tab:exercice-biogaz}
+\end{table*}
+
+
+}
+
+\exercice{Trois flacons sans étiquettes et identiques contiennent trois liquides incolores: de l'eau, 
+de l'éthanol et de l'huile de paraffine. On donne les caractéristiques physiques de ces
+trois espèces chimiques dans le tableau \ref{tab:exercice-liquide-inconnu}.
+Proposez une méthode simple pour reconnaître les trois liquides. \\
+\begin{table*}[h!]
+  \centering
+  \begin{tabu}  to 0.8\textwidth { X[l]  X[1.5,l]  X[c]  X[2.5,l] }
+    \hline
+    \textbf{Espèce} & \textbf{Aspect} & \textbf{Masse volumique}  & \textbf{Miscibilité}  \\ 
+    \hline 
+    Eau &  Incolore, inodore & $1.0~g.L^{-1}$  & Miscible  avec l'éthanol mais pas la paraffine \\ 
+    Éthanol &  Incolore, odeur typique & $0.79~g.L^{-1}$  & Miscible  avec l'eau mais pas la paraffine \\
+    Huile de paraffine &  Incolore, inodore & $0.85~g.L^{-1}$  & Non miscible avec l'eau et l'éthanol \\     
+    \hline
+  \end{tabu}
+  \caption{Caractéristiques physiques de l'eau, l'éthanol et l'huile de paraffine }
+  \label{tab:exercice-liquide-inconnu}
+\end{table*}
+}
+
+\subsection*{les solutions aqueuses} 
+
+\exercice{Donnez la définition d'une solution, refaire le schéma correspondant.}
+\exercice{Donnez la définition d'une concentration massique, donnez la formule, la signification 
+des paramètres et les unités à utiliser dans cette formule.}
+\exercice{Donnez la définition de la concentration massique maximale d'une solution.}
+\exercice{Dessinez les différentes étapes du protocole de préparation d'un solution par 
+dissolution du soluté.}
+\exercice{Dessinez les différentes étapes du protocole de préparation d'un solution par dilution 
+d'une solution mère.}
+\exercice{Donnez la formule de la dilution.}
+\exercice{On dissout $5~g$ de sucre dans $250~mL$ d'eau. Calculer la concentration massique en sucre.}
+\exercice{On a une solution de chlorure de potassium de concentration massique $t=4.2~g.L^{-1}$. Si on prélève $200~mL$ de cette solution, combien a-t-on de gramme de chlorure de potassium dans notre prélèvement? Si on souhaite avoir $1~kg$ de chlorure de potassium quel volume de solution doit-on prélever?}
+\exercice{Un volume $V=100~mL$ d'un médicament en solution contient une masse $m=0.21~g$ de principe
+actif (la substance qui soigne). Calculez la concentration massique de ce médicament, exprimée en $g.L^{-1}$.}
+\exercice{Quelle est la masse $m$ de glucose à peser pour préparer $100~mL$ d'une solution de concentration 
+massique $2.5~g.L^{-1}$?}
+\exercice{Un volume $V=250~mL$ de lait contient une masse $m=140~mg$ de vitamine A. Calculez la concentration 
+massique en vitamine A, exprimée en $g.L^{-1}$.}
+\exercice{Si on dissout $3.2~kg$ de sel dans $1.0~m^3$ d'eau, quelle sera la concentration massique de sel, 
+exprimée en  $g.L^{-1}$ ?}
+\exercice{On souhaite préparer une solution d'iodure de potassium de volume $V=50.0~mL$ et de concentration 
+massique $5.00 \times  10^{-1}~g.L^{-1}$ à partir d'une solution mère de concentration massique $2.50~ g.L^{-1}$. 
+Quel est le volume de solution mère à prélever?}
+\exercice{À partir d'une solution mère de diiode de concentration massique $0.20~g.L^{-1}$, on prépare un volume 
+de $250~mL$ d'une solution fille pour laquelle la concentration massique en diiode est de $3.4 \times 10^{-3}~g.L^{-1}$. 
+Calculez le volume de solution mère à prélever.}
+\exercice{On a dilué une solution mère de concentration massique inconnue dont on a prélevé $10~mL$ pour fabriquer une 
+solution fille de $250~mL$ de volume, à la concentration massique de $2.0~g.L^{-1}$. Quelle était la concentration initiale
+de la solution mère?}
+
+\subsection*{les dosages} 
+\exercice{Pour doser une substance colorée, on peut utiliser un spectrophotomètre qui mesure une grandeur physique appelée 
+l'absorbance $A$. On a réalisé une échelle de concentration qui relie la concentration massique d'une solution colorée à l'absorbance 
+  (table \ref{tab:exercice-dosage-etalonnage}).\\
+  \textbf{a.~}Tracez la droite d'étalonnage $A$ en fonction de $t$. \\ 
+  \textbf{b.~}Une solution inconnue a une absorbance $A$ de $1.3$. Déterminez
+  sa concentration massique.}
+\begin{table*}[!h]
+  \begin{center}
+  \begin{tabu} to 0.7\textwidth { | X[3,c] | X[c] | X[c] | X[c] | X[c] | X[c] | X[c] |}
+	\hline
+	\textbf{solution étalon} & eau & $1$ & $2$ & $3$ & $4$ & $5$ \\
+	\hline
+	\textbf{$\bm{t}$ en $\bm{g.L^{-1}}$} & $0.0$ & $0.2$ & $0.4$ & $0.6$ & $0.8$ & $1.0$ \\
+	\hline
+	$\bm{A}$  & $0.0$ & $0.4$ & $1.1$ & $1.4$ & $2.1$ & $2.5$ \\
+	\hline
+  \end{tabu}
+  \caption{Absorbance et concentration massique d'une gamme étalon}
+  \label{tab:exercice-dosage-etalonnage}
+  \end{center}
+\end{table*}
+
+\section{Correction}
+\setcounter{numcorrs}{0}
+\correction{ Voir le cours.}
+\correction{\textbf{a} Voir le cours. \textbf{b} Pour isoler $V$ dans la formule $m = \rho \times V$, on divise à gauche et à droite par $\rho$ puis on simplifie. 
+\begin{equation*}
+  \begin{aligned}
+	m &= \rho \times V \\
+	\frac{m}{\rho} &= \frac{\rho \times V}{\rho}  \\
+	\frac{m}{\rho} &= \frac{\bcancel{\rho} \times V}{\bcancel{\rho}}  \\
+	V &=\frac{m}{\rho} 
+  \end{aligned}
+\end{equation*}
+\textbf{c} Pour isoler $\rho$ dans la formule $m = \rho \times V$, on divise à gauche et à droite par $V$ puis on simplifie. 
+\begin{equation*}
+  \begin{aligned}
+	m &= \rho \times V \\
+	\frac{m}{V} &= \frac{\rho \times V}{V}  \\
+	\frac{m}{V} &= \frac{ \rho \times \bcancel{V}}{\bcancel{V}}  \\
+	\rho &=\frac{m}{V} 
+  \end{aligned}
+\end{equation*}
+
+}
+\correction{D'après le texte de la définition $ d = \frac{\rho}{\rho_{\textit{eau}}}$. On isole $\rho$ dans cette formule en multipliant à gauche et à droite par $\rho_{\textit{eau}}$.
+\begin{equation*}
+  \begin{aligned}
+	d &= \frac{\rho}{\rho_{\textit{eau}}} \\
+	d \times \rho_{\textit{eau}} &= \frac{\rho}{\rho_{\textit{eau}}}  \times \rho_{\textit{eau}} \\
+	d \times \rho_{\textit{eau}} &= \frac{\rho}{\bcancel{\rho_{\textit{eau}}}}  \times \bcancel{\rho_{\textit{eau}}} \\
+	\rho &=  d \times \rho_{\textit{eau}}	
+  \end{aligned}
+\end{equation*}
+
+}
+
+\correction{On utilise le sulfate de cuivre anhydre (poudre  blanche) qui prendra une couleur bleue en présence d'eau.}
+
+\correction{On utilise le test de la flamme, une petite explosion se produit en présence de dihydrogène.}
+
+\correction{On utilise un petit bout de charbon incandescent qui se ravive et s'enflamme en présence de dioxygène.}
+
+\correction{On fait barboter le gaz dans de l'eau de chaux qui se trouble en présence de dioxyde de carbone.}
+
+\correction{ De gauche à droite dans le tableau, en commençant par la première ligne: $1000~kg.m^{-3}$, $260~L$, $43.9~kg$, $820~kg.m^{-3}$, $36~t$ et $3.6~m^3$.}
+
+\correction{\textbf{a }Matière grasse $\frac{8.9}{67}\times 100 = 13~\textit{\% mas}$, glucides $\frac{32.7}{67}\times 100 = 49~\textit{\% mas}$, protéines $\frac{5.2}{67}\times 100 = 7.8~\textit{\% mas}$ et sel $\frac{0.67}{67}\times 100 = 1.0~\textit{\% mas}$. \par
+\textbf{b} La masse totale des ingrédients est $8.9+32.7+5.2+0.67=47.47~g$, la différence de masse est de $67-47.47=19.53~g$, elle correspond à la masse de l'eau dans la brioche. Il suffit de placer les tranches de brioche dans une étuve pour évaporer l'eau.}
+
+\correction{En utilisant la définition de la composition en volume $\frac{V_i}{V} \times 100 = \textit{ \% Vol}$, on isole $V_i$ dans cette formule pour obtenir $$ V_i = \frac{\textit{ \% Vol} \times V }{100} $$
+\par Un volume de $4.5~m^3$ de biogaz correspond à $4500~L$ de gaz.
+Pour les ordures ménagères $\textit{ \% Vol} = 38$ à $\textit{ \% Vol} = 34$ donc 
+$$ V_i = \frac{38 \times 4500~L }{100} = 1710~ L $$ 
+$$ V_i = \frac{34 \times 4500~L }{100} = 1530~ L $$
+Le volume de $CO_2$ est compris entre $1530~L$ et $1710~L$.
+$$ 1530~L < V_{CO_2} < 1710~L$$
+
+\par Pour les boues et les déchets agricoles, en utilisant le même raisonnement
+$$ 855~L < V_{CO_2} < 1485~L$$
+
+\par Enfin, pour les déchets industriels $V_{CO_2} = 1170~L$.
+
+}
+
+\correction{ \textit{Première méthode} On peut reconnaître l'éthanol à l'odeur, puis en mélangeant les deux autres liquides, on observe deux phases, l'huile de paraffine flotte sur l'eau . \par \textit{Deuxième méthode} On mesure la masse volumique de chaque liquide (en mesurant la masse d'un volume précis de liquide).
+}
+
+\correction{ Voir le cours.}
+\correction{ Voir le cours.}
+\correction{ Voir le cours.}
+\correction{ Voir le cours.}
+\correction{ Voir le cours.}
+\correction{ Voir le cours.}
+\correction{ $$ t = \frac{m}{V} = \frac{5.0~g}{250~mL}= \frac{5.0~g}{0.250~L} = 20~g.L^{-1} $$}
+
+\correction{ Dans la formule de la définition  $t =\frac{m}{V}$, on isole $m$ si on connaît les deux autres paramètres. On a alors $$m = t \times V$$ On peut aussi isoler $V$ dans cette formule et on obtient $$V = \frac{m}{t}$$
+\textit{Masse de chlorure de potassium} 
+\begin{equation*}
+  \begin{aligned}
+      m &= t \times V \\
+	&= 4.2~g.L^{-1} \times 200~mL  \\
+	&= 4.2~g.L^{-1} \times 0.200~L  \\
+	&= 0.84~g \\
+  \end{aligned}
+\end{equation*}
+\textit{Volume de solution} 
+\begin{equation*}
+  \begin{aligned}
+      V &= \frac{m}{t} \\
+	&= \frac{1~kg}{4.2~g.L^{-1}} \\
+	&= \frac{1\times 10^3~g}{4.2~g.L^{-1}} \\
+	&=238~L \\
+	&=2.38\times 10^2~L\\
+  \end{aligned}
+\end{equation*}
+}
+
+\correction{$$ t = \frac{m}{V} = \frac{0.21~g}{100~mL}= \frac{0.21~g}{0.100~L} = 2.1~g.L^{-1} $$}
+
+\correction{
+\begin{equation*}
+  \begin{aligned}
+      m &= t \times V \\
+      &= 2.5~g.L^{-1} \times 100~mL  \\
+      &=  2.5~g.L^{-1} \times 0.100~L   \\
+      &= 0.25~g \\
+  \end{aligned}
+\end{equation*}
+}
+
+\correction{
+\begin{equation*}
+  \begin{aligned}
+      t &= \frac{m}{V} \\
+      &= \frac{140~mg}{250~mL} \\
+      &= \frac{140 \times 10^{-3}~g}{250 \times 10^{-3}~L} \\
+      &= \frac{0.140~g}{0.250~L} \\
+      &= 0.560~g.L^{-1}\\
+  \end{aligned}
+\end{equation*}
+}
+\correction{On convertie la masse de sel en gramme $$m=3.2~kg = 3.2 \times 10^3~g$$ et  le volume d'eau en litre $$ V = 1~m^3 = 1000~L$$ puis on applique la formule de la définition $$ t = \frac{m}{V}=\frac{3.2 \times 10^3~g}{1000~L}= 3.2~g.L^{-1}$$}
+
+\correction{
+}
